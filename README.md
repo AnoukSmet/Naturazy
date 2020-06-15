@@ -10,7 +10,24 @@ This will be my first project for which I will use HTML & CSS in order to create
 
 ---
 
+## Table of contents 
+* [UX](#ux)
+    * [User Goals](###usergoals)
+    * [User Stories](#userstories)
+    * [Site Owners Goals](#siteownersgoals)
+    * [User Requirements & Expectations](#userrequirements&expectations)
+        * [Requirements](#requirement)
+        * [Expectations](#expectations)
+    * [Design Choices](#designchoices)
+        * [Fonts](#fonts)
+        * [Icons](#icons)
+        * [Colors](#colors)
+        * [Structure](#structure)
+* [Wireframes](#wireframes)
+
+<a name="ux"></a>
 ## **UX**
+<a name="usergoals"></a>
 ### **User Goals**
 
 * A website filled with valuable content
@@ -23,8 +40,7 @@ This will be my first project for which I will use HTML & CSS in order to create
 * Form to contact owners directly from site
 
 
-
-### **User Stories**
+### <a name="userstories"></a> **User Stories**
 1. As a user I want that the website of a potential b&b to speak to my emotions right away.
 I need to have the feeling that I don't want to miss out on the amazing experience. 
 Pictures are for me the most convincing. I expect to see pictures of the rooms, property in general but also of the environment.
@@ -41,7 +57,7 @@ This in combination with appealing images really thrives my decision-making proc
 The more intuitive the website is, the more likely I will be to book the property. I like to make a reservation directly with the property so I don't want to have to look too long in order to find the contact details of the property.
 
 
-
+<a name="siteownersgoals"></a>
 ### **Site owners Goals**
 * Advertise Bed & Breakfast and all its features
 * Increase bookings
@@ -91,3 +107,22 @@ Below I will explain more why I choose the various colors and for what I will be
 
 I have used to contract checker on Coolors in order to make sure that the contract is sufficient.
 This way my content will be easily readable. 
+
+#### Structure
+I have chosen to use [Bootstrap4](https://getbootstrap.com/) to create an overall structure for my website. 
+Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on your page. 
+As Bootstrap4 is designed for mobile first, I will be certain that my website functions well on mobile.
+
+--- 
+
+## **Wireframes**
+I have decided to use [Balsamic](https://balsamiq.com/wireframes/) to create wireframes for my website. 
+First I created a basic wireframe for desktop and later on for tablet and mobile. 
+For my website I have decided to go for a 1 page website which suits more with the current trends. 
+The website will be easy to navigate by using the navigation bar or by scrolling down the page. 
+
+You can view my wireframes [here](https://balsamiq.cloud/sc2gxvm/plfcf7k/r2278).
+
+---
+
+
