@@ -22,3 +22,8 @@ This will be my first project for which I will use HTML & CSS in order to create
 * Contact details should be easy to find
 * Form to contact owners directly from site
 
+### User Stories
+1. As a user I want that the website of a potential b&b to speak to my emotions right away.
+I need to have the feeling that I don't want to miss out on the amazing experience. 
+Pictures are for me the most convincing. 
+I would also like to have the possibility to get in touch with the property through the website.
