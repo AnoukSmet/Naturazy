@@ -48,7 +48,6 @@ The more intuitive the website is, the more likely I will be to book the propert
 * Stand out from the competition
 
 
-
 ### **User Requirements and Expectations**
 #### Requirements:
 * Easy to navigate by using the navigation menu
@@ -58,4 +57,12 @@ The more intuitive the website is, the more likely I will be to book the propert
 * Clear information about how to make a booking
 
 #### Expectations:
-* When clicking on links (like social media)
+* When clicking on links (like social media), I expect the page to open in a seperate browser
+* I expect feedback when submitting the contact form that the form has been submitted correctly
+* I expect that the navigations works properly so that is takes me wherever I want to go
+* Clear info about location 
+* Website is in line with the customer's journey
+
+### Design Choices
+As the property is located in the middle of the nature, I made all my design choices based on natural colors & elements.
+I have used [Coolors](https://coolors.co/ "Coolors.co") to come up with a color scheme that fits the overall feeling of nature.
