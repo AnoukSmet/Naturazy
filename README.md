@@ -34,3 +34,6 @@ After reading about the propery and the owners, I want clear information about w
 
 1. When I choose a place to spend my valuable free time, I let myself be guided by experiences of others. Testimonials and guest reviews are the most important for me.
 This in combination with appealing images really thrives my decision-making process. Links to social media like facebook, tripadvisor etc are key.
+
+1. As an older person who is not the best with technology, it is very important that the website is easy and simple to use. I have just learned how to use a tablet so it's important that the website functions well on tablets.
+The more intuitive the website is, the more likely I will be to book the property. I like to make a reservation directly with the property so I don't want to have to look too long in order to find the contact details of the property.
