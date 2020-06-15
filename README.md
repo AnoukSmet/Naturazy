@@ -78,3 +78,10 @@ I have decided to implement icons, using the [Font Awesome library](https://font
 I will make sure that the icons are styled according to the website. I will use the icons mainly in the navigation bar in order to make it more appealing. The navigation icons will disappear when viewing on a mobile in order to keep it clear.
 The navigation menu will transform into a hamburger icon to make it more simple to use on mobile.
 
+#### Colors:
+As mentioned before, I based my color scheme on the natural aspect of the property. 
+
+![Color Scheme](https://e4b9c165-893d-4671-bc56-e18ec0195a1a.ws-eu01.gitpod.io/files/download/?id=f4fbc839-bd62-4b46-8025-2329d403bbee "Color Scheme")
+
+* #406350: This color will be used as my primary background-color. It is a dark green color (referring to trees, plants) which creates a calm, natural feeling. 
+* #A1BAAF: 
