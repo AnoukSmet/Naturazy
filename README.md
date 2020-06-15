@@ -1,5 +1,5 @@
-# Naturazy
-## Description 
+# **Naturazy**
+## **Description** 
 The goal for this project is to create an appealing website for Naturazy, a bed & breakfast in the middle of the nature. 
 The target audience is couples of all ages who want to go on a getaway, away from their busy (city) lives, in order to relax in the nature. 
 The site needs to be visually appealing so potential guests feel the need to go there in order to unwind. 
@@ -10,8 +10,8 @@ This will be my first project for which I will use HTML & CSS in order to create
 
 ---
 
-## UX
-### User Goals
+## **UX**
+### **User Goals**
 
 * A website filled with valuable content
 * Website should be easy to use on desktop, tablet & mobile
@@ -22,7 +22,9 @@ This will be my first project for which I will use HTML & CSS in order to create
 * Contact details should be easy to find
 * Form to contact owners directly from site
 
-### User Stories
+
+
+### **User Stories**
 1. As a user I want that the website of a potential b&b to speak to my emotions right away.
 I need to have the feeling that I don't want to miss out on the amazing experience. 
 Pictures are for me the most convincing. I expect to see pictures of the rooms, property in general but also of the environment.
@@ -38,8 +40,22 @@ This in combination with appealing images really thrives my decision-making proc
 1. As an older person who is not the best with technology, it is very important that the website is easy and simple to use. I have just learned how to use a tablet so it's important that the website functions well on tablets.
 The more intuitive the website is, the more likely I will be to book the property. I like to make a reservation directly with the property so I don't want to have to look too long in order to find the contact details of the property.
 
-### Site owners Goals
+
+
+### **Site owners Goals**
 * Advertise Bed & Breakfast and all its features
 * Increase bookings
 * Stand out from the competition
 
+
+
+### **User Requirements and Expectations**
+#### Requirements:
+* Easy to navigate by using the navigation menu
+* Relevant content about the property
+* Appealing visual elements
+* Easy way to contact propery
+* Clear information about how to make a booking
+
+#### Expectations:
+* When clicking on links (like social media)
