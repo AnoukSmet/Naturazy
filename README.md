@@ -63,6 +63,14 @@ The more intuitive the website is, the more likely I will be to book the propert
 * Clear info about location 
 * Website is in line with the customer's journey
 
-### Design Choices
+### **Design Choices**
 As the property is located in the middle of the nature, I made all my design choices based on natural colors & elements.
 I have used [Coolors](https://coolors.co/ "Coolors.co") to come up with a color scheme that fits the overall feeling of nature.
+
+#### Fonts:
+In order to find appropriate fonts for my website, I have visited [Google Fonts](https://fonts.google.com/ "Google Fonts") to explore the various options.
+For the overall content I have decided to use the [Fanwood Text](https://fonts.google.com/specimen/Fanwood+Text?query=fanw "Google fonts: Fanwood Text") font. In my opinion this font is easy to read and visually appealing.
+For my headings I decided to go with a different font in order to make them stand out from the main content. The font I chose for this, is the [Eagle Lake](https://fonts.google.com/specimen/Eagle+Lake?query=eagle "Google Fonts: Eagle Lake") font.
+This is a calligraphic font that highlights to heading and gives it a more personal feeling. 
+
+
