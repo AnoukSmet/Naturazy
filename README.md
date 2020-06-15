@@ -25,5 +25,9 @@ This will be my first project for which I will use HTML & CSS in order to create
 ### User Stories
 1. As a user I want that the website of a potential b&b to speak to my emotions right away.
 I need to have the feeling that I don't want to miss out on the amazing experience. 
-Pictures are for me the most convincing. 
-I would also like to have the possibility to get in touch with the property through the website.
+Pictures are for me the most convincing. I expect to see pictures of the rooms, property in general but also of the environment.
+I would also like to have the possibility to get in touch with the property through the website. 
+
+1. When I'm looking for my next holiday, I want the website to be easy to navigate. 
+I also like to know a bit of information about the owners as a b&b experience is much more personal than going to a hotel. 
+After reading about the propery and the owners, I want clear information about when I can do the check-in, check-out and the costs for breakfast and parking. 
