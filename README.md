@@ -73,4 +73,8 @@ For the overall content I have decided to use the [Fanwood Text](https://fonts.g
 For my headings I decided to go with a different font in order to make them stand out from the main content. The font I chose for this, is the [Eagle Lake](https://fonts.google.com/specimen/Eagle+Lake?query=eagle "Google Fonts: Eagle Lake") font.
 This is a calligraphic font that highlights to heading and gives it a more personal feeling. 
 
+#### Icons:
+I have decided to implement icons, using the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). The icons that I chose are self explanatory and are in line with the overall feeling of the website.
+I will make sure that the icons are styled according to the website. I will use the icons mainly in the navigation bar in order to make it more appealing. The navigation icons will disappear when viewing on a mobile in order to keep it clear.
+The navigation menu will transform into a hamburger icon to make it more simple to use on mobile.
 
