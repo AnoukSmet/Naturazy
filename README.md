@@ -31,3 +31,6 @@ I would also like to have the possibility to get in touch with the property thro
 1. When I'm looking for my next holiday, I want the website to be easy to navigate. 
 I also like to know a bit of information about the owners as a b&b experience is much more personal than going to a hotel. 
 After reading about the propery and the owners, I want clear information about when I can do the check-in, check-out and the costs for breakfast and parking. 
+
+1. When I choose a place to spend my valuable free time, I let myself be guided by experiences of others. Testimonials and guest reviews are the most important for me.
+This in combination with appealing images really thrives my decision-making process. Links to social media like facebook, tripadvisor etc are key.
