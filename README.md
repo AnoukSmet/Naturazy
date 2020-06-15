@@ -136,11 +136,19 @@ First I created a basic wireframe for desktop and later on for tablet and mobile
 For my website I have decided to go for a 1 page website which suits more with the current trends. 
 The website will be easy to navigate by using the navigation bar or by scrolling down the page. 
 
-You can view my wireframes below:
+You can find my wireframes below:
 
-### Desktop Wireframes
+### Desktop Wireframe
 
-[Desktop Wireframe](https://github.com/AnoukSmet/Naturazy/blob/33f0419aca8c5ee7152b47c96e1f5edbee0db05a/wireframes/desktop-wireframe.png)
+![Desktop Wireframe](wireframes/desktop-wireframe.png)
+
+### Tablet Wireframe
+
+![Tablet Wireframe](wireframes/tablet-wireframe.png)
+
+### Mobile Wireframe
+
+![Mobile Wireframe](wireframes/mobile-wireframe.png)
 
 [Back to Top](#table-of-contents)
 
