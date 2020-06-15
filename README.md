@@ -65,7 +65,7 @@ The more intuitive the website is, the more likely I will be to book the propert
 
 ### **Design Choices**
 As the property is located in the middle of the nature, I made all my design choices based on natural colors & elements.
-I have used [Coolors](https://coolors.co/ "Coolors.co") to come up with a color scheme that fits the overall feeling of nature.
+I have used [Coolors](https://coolors.co/ "Coolors.co") and [Color Hunt](https://colorhunt.co/) to come up with a color scheme that fits the overall feeling of nature.
 
 #### Fonts:
 In order to find appropriate fonts for my website, I have visited [Google Fonts](https://fonts.google.com/ "Google Fonts") to explore the various options.
@@ -80,8 +80,14 @@ The navigation menu will transform into a hamburger icon to make it more simple 
 
 #### Colors:
 As mentioned before, I based my color scheme on the natural aspect of the property. 
+You can view my color scheme [here](https://colorhunt.co/palette/193637).
+Below I will explain more why I choose the various colors and for what I will be using them.
 
-![Color Scheme](https://e4b9c165-893d-4671-bc56-e18ec0195a1a.ws-eu01.gitpod.io/files/download/?id=f4fbc839-bd62-4b46-8025-2329d403bbee "Color Scheme")
 
-* #406350: This color will be used as my primary background-color. It is a dark green color (referring to trees, plants) which creates a calm, natural feeling. 
-* #A1BAAF: 
+* #3C5D4B: This color will be used as my primary background-color. It is a dark green color (referring to trees, plants) which creates a calm, natural feeling. 
+* #A1BAAF: This color is a slightly ligher green which I will use for my navigation menu and call-to-action buttons.
+* #F6FFF8: This color will be used as text color for the overall contact of the page. It's a mint cream (off white) which stands out well to the background colors that I have chosen.
+* #39210C: This is a seal brown color which represents the wood in nature. I will use this color as text-color for my navigation & buttons. 
+
+I have used to contract checker on Coolors in order to make sure that the contract is sufficient.
+This way my content will be easily readable. 
