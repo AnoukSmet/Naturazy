@@ -2,11 +2,52 @@
 
 body {
     font-family: "Fanwood Text", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*--------------------------------- Colors */
+.bg-color-dark {
+    background-color: #3C5D4B;
+    color: #F6FFF8;
+}
+
+.bg-color-light {
+    background-color: #A1BAAF;
+    color:#39210C
 }
 
 /*--------------------------------- Header */
 
-.heading {
-    background-color: #A1BAAF;
-    margin-top: 0;
+.menu {
+    float: right;
+    line-height: 75px;
+}
+
+.logo {
+    float: left;
+    line-height: 75px;
+}
+.logo a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 75px;
+}
+.logo h1{
+    margin-left: 15px;
+    line-height: 75px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-family: "Eagle Lake", sans-serif;
+    font-size: 50px;
+}
+.menuitem {
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: inherit;
 }
