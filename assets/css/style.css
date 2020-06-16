@@ -51,3 +51,12 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+/*--------------------------------- Hovers */
+
+.menuitem span:hover {
+    border-bottom: 1px solid #39210C;
+}
+.active {
+    border-bottom: 1px solid #39210C;
+}
