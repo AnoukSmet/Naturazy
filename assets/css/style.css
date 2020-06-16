@@ -3,3 +3,10 @@
 body {
     font-family: "Fanwood Text", sans-serif;
 }
+
+/*--------------------------------- Header */
+
+.heading {
+    background-color: #A1BAAF;
+    margin-top: 0;
+}
