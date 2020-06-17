@@ -24,6 +24,12 @@ body {
     align-items: right;
     display: block;
     color: #39210C;
+    background-color: #A1BAAF;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .nav-link {
@@ -89,5 +95,5 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;;
-    height: 80vh;
+    height: 70vh;
 }
