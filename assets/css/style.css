@@ -218,6 +218,22 @@ body {
     color: #39210C;
 }
 
+
+/*--------------------------------- Gallery */
+
+.gallery-images {
+  clear: both;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery-images img{
+  width: 100%;
+}
+
 /*--------------------------------- Media Queries */
  @media (max-width: 768px) {
      .prices {
