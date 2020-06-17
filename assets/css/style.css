@@ -112,5 +112,17 @@ body {
     -webkit-transition: all .5s ease-in-out;
     border-radius: 50%;
     margin: 15px 0;
-    padding: 0 15px;
+}
+
+.text-property,
+.text-owners {
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.welcome-heading {
+    font-family: "Eagle Lake", sans-serif;
+    margin-bottom: 20px;
+    font-size: 25px;
 }
