@@ -221,19 +221,90 @@ body {
 
 /*--------------------------------- Gallery */
 
-.gallery-images {
-  clear: both;
-  line-height: 0;
-  column-count: 3;
-  column-gap: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.gallery-image-1 {
+    background: url('../images/gallery-1-image.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
 }
-
-.gallery-images img{
-  width: 100%;
+.gallery-image-2 {
+    background: url('../images/gallery-2-image.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
 }
-
+.gallery-image-3 {
+    background: url('../images/gallery-3-image.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+.gallery-image-4 {
+    background: url('../images/gallery-4-image.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+.gallery-image-5 {
+    background: url('../images/gallery-5-image.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+.gallery-image-6 {
+    background: url('../images/gallery-6-image.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+.gallery-image-7 {
+    background: url('../images/gallery-7-image.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+.gallery-image-8 {
+    background: url('../images/gallery-8-image.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+.gallery-image-9 {
+    background: url('../images/gallery-9-image.jpeg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+.gallery-image-10 {
+    background: url('../images/gallery-10-image.jpeg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+.gallery-image-11 {
+    background: url('../images/gallery-11-image.jpeg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+.gallery-image-12 {
+    background: url('../images/gallery-12-image.jpeg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
 /*--------------------------------- Media Queries */
  @media (max-width: 768px) {
      .prices {
