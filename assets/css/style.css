@@ -314,9 +314,18 @@ body {
     color: #A1BAAF;
     font-size: 50px;
     margin-left: 50px;
-
 }
 
+.social-links {
+    text-align: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #A1BAAF;
+    font-size: 50px;
+    padding: 30px;
+}
 
 /*--------------------------------- Media Queries */
  @media (max-width: 768px) {
