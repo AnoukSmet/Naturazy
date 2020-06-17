@@ -17,6 +17,27 @@ body {
     color:#39210C
 }
 
+/*--------------------------------- Padding / margin/ text */
+
+.hr {
+    border: 1px solid #A1BAAF;
+    width: 100%;
+}
+
+.heading {
+    font-family: "Eagle Lake", sans-serif;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 30px;
+}
+
+.sub-heading {
+    font-family: "Eagle Lake", sans-serif;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
 /*--------------------------------- Header */
 
 .navbar {
@@ -102,7 +123,7 @@ body {
 /*--------------------------------- Welcome section */
 
 .image-owners {
-     background: url('../images/owners-image.png');
+    background: url('../images/owners-image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,8 +142,79 @@ body {
     margin-top: 15px;
 }
 
-.welcome-heading {
+.about-heading {
     font-family: "Eagle Lake", sans-serif;
     margin-bottom: 20px;
     font-size: 25px;
 }
+
+/*--------------------------------- Tree house section */
+
+.treehouse-1-image {
+    background: url('../images/treehouse-1-image.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.treehouse-2-image {
+    background: url('../images/treehouse-2-image.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.treehouse-3-image {
+    background: url('../images/treehouse-3-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.treehouse-4-image {
+    background: url('../images/treehouse-4-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.treehouse-text {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.policies {
+    text-align: center;
+}
+
+/*--------------------------------- Prices */
+
+.prices {
+    text-align: center;
+    border: 3px solid #F6FFF8;
+    width: 60%;
+    margin: auto;
+}
+
+.promotions {
+    text-align: center;
+}
+
+.btn-promotions {
+    background-color:#A1BAAF;
+    color: #39210C;
+    text-align: center;
+    margin-top: 15px;
+    border: 3px solid #39210C;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.price-modal,{
+    color: #39210C;
+}
+
