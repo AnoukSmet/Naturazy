@@ -22,6 +22,7 @@ body {
 .hr {
     border: 1px solid #A1BAAF;
     width: 100%;
+    margin: 30px 0; 
 }
 
 .heading {
@@ -356,7 +357,7 @@ body {
 
 input,
 textarea {
-    width: 90%;
+    width: 80%;
     margin-bottom: 10px;
     background-color: #A1BAAF;
     border: 2px solid #39210C;
@@ -389,6 +390,10 @@ textarea {
     font-size: 40px;
     line-height: 70px;
     
+}
+
+.contact-form {
+    margin-bottom: 15px;
 }
 
 /*--------------------------------- Media Queries */
