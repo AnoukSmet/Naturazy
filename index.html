@@ -95,15 +95,15 @@
             <div class="col-10 offset-1">
                 <p class="treehouse-text">
                 Our Tree Houses are spacious enough to move about easily, is surrounded by windows, and has a queen size bed. <br>
-                The main level has a beautiful built-in lounging area surrounded by windows, a dining room area with microwave, Keurig and mini fridge, and a bathroom with shower, sink and toilet. <br>
+                The main level has a beautiful built-in lounging area surrounded by windows, a dining room area with microwave, <br> Keurig and mini fridge, and a bathroom with shower, sink and toilet. <br>
                 The tree house has a back deck complete with Adirondack chairs and a walkway that wraps around three sides of the treehouse. <br>
                 It’s the perfect place to rest, relax, and reconnect with nature and loved ones.<br>
                 </p>
                 <h4 class="sub-heading">Policies</h4>
                 <p class="policies">
-                Check-in - as off 2pm <br>
-                Check-out - until 11am <br>
-                Breakfast - the breakfast will be served between 7.30am and 10.30am <br>
+                Check-in - from 2 pm <br>
+                Check-out - until 11 am <br>
+                Breakfast - the breakfast will be served between 7.30 am and 10.30 am <br>
                 Parking - there is free onsite parking available
                  </p>
             </div>
@@ -167,30 +167,36 @@
         </div>        
     </section>
     <section class="container-fluid"> 
-        <div class="row bg-color-dark">
+        <div class="row bg-color-dark testimonial-section">
             <div class="col-12">
                 <hr class="hr">
                 <h2 class="heading">Testimonials</h2>
                 <hr class="hr">
             </div>
-            <div class="col-md-5 testimonial">
-                <h5 class="sub-heading">Mrs. Wilson <i class="fas fa-comment-dots"></i> </h5>
-                <p>
-                Stayed at the Sunrise treehouse, which was quaint and had tons of natural lighting. 
-                The loft bedroom provided a fun throwback to my youth, and the relaxing "nook" was wonderful for reading and kicking back. 
+            <div class="col-md-5">
+                <div class="testimonial-icon">
+                    <i class="fas fa-comment-dots"></i>
+                </div>
+                <h5 class="sub-heading testimonial-heading">Mrs. Wilson</h5>
+                <p class="testimonial">
+                Stayed at the Sunrise treehouse, which was quaint and had tons of natural lighting.
+                The loft bedroom provided a fun throwback to my youth, and the relaxing "nook" was wonderful for reading and kicking back.
                 Breakfast was delicious and accommodating of dietary needs, with personable and professional service. 
-                Our host gave us a wonderful breakdown of the points of interest the first night, and they have binders explaining things in greater detail. 
-                It's quiet, tucked away behind a hill or (in our case) up above the road, but still minutes from downtown Hermann and the wineries. 
+                Our host gave us a wonderful breakdown of the points of interest the first night, and they have binders explaining things in greater detail.
+                It's quiet, tucked away behind a hill or (in our case) up above the road, but still minutes from downtown Hermann and the wineries.
                 Was verbally recommended to us by multiple friends and we're telling everyone we know about it. Excellent B&B!</p>
             </div>
             <div class="col-md-2"></div>
-            <div class="col-md-5 testimonial">
-                <h5 class="sub-heading">Mr. Smith <i class="fas fa-comment-dots"></i></h5>
-                <p>
+            <div class="col-md-5">
+                <div class="testimonial-icon">
+                    <i class="fas fa-comment-dots"></i>
+                </div>
+                <h5 class="sub-heading testimonial-heading">Mr. Smith</h5>
+                <p class="testimonial">
                 My wife and I stayed at Naturazy for our 2 year wedding anniversary. 
-                We loved every moment we were there. The views were gorgeous. 
-                Every window in the treehouse opened up to a beautiful view of the treelines and the deck was a wonderful place to sit and take in the sights and sounds of nature. 
-                The interior was intimate and cozy, with all the amenities you could need, like A/C, heat, running water, microwave, coffee maker and internet. 
+                We loved every moment we were there. The views were gorgeous.
+                Every window in the treehouse opened up to a beautiful view of the treelines and the deck was a wonderful place to sit and take in the sights and sounds of nature.
+                The interior was intimate and cozy, with all the amenities you could need, like A/C, heat, running water, microwave, coffee maker and internet.
                 The staff was so courteous and helpful when answering any and all questions and concerns we had. </p>
             </div> 
             <div class="col-12">
@@ -210,7 +216,42 @@
                 <h2 class="heading">Contact</h2>
                 <hr class="hr">
             </div>
-
+            <div class="col-md-5 contact-location">
+                <h5 class="sub-heading">Contact Details</h5>
+                <p>
+                Phone number:
+                +32 3 752 21 90 <br>
+                Email address:
+                <a href="mailto:info@naturazy.be">info@naturazy.be </a> <br>
+                </p>
+                <h5 class="sub-heading">Location</h5>
+                <p>
+                Avenue Léopold II 40 <br>
+                4900 Spa <br>
+                Belgium
+                </p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+            <h5 class="sub-heading">Contact Us!</h5>
+            <form class="row contact-form">
+                <div class="col-12">
+                <input type="text" name="name" id="name" placeholder="Your Name">
+                </div>
+                <div class="col-12">
+                <input type="email" name="email" id="email" placeholder="Your Email Address">
+                </div>
+                <div class="col-12">
+                <input type="text" name="phonenumber" id="phonenumber" placeholder="Phone Number">
+                </div>
+                <div class="col-12">
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Write your message here"></textarea>
+                </div>
+                <div class="col-12">
+                <button type="button" class="bg-color-light btn-submit" data-toggle="modal" data-target="#submitModal">Submit</button>
+                </div>
+            </form>
+            </div>
         </div>        
     </section>
     <footer></footer>
@@ -229,6 +270,28 @@
         Stay 2 nights - Get <b>15%</b> off! <br>
         Stay 3 nights - Get <b>25% </b>off! <br>
         Stay 4 nights - Get <b>35% </b>off! <br>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn bg-color-light" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="modal fade submit-modal" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title submit-modal-title" id="submitModalLabel">Thank you!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+        Thank you for submitting your request. <br>
+        We will get back to within 48 hours.
         </p>
       </div>
       <div class="modal-footer">

@@ -306,18 +306,26 @@ body {
     min-height: 300px;
 }
 /*--------------------------------- Testimonials */
-.testimonials {
+.testimonial {  
     text-align: center;
-}
+    padding-left: 10px;
+    padding-right: 10px;
+     }
 
-.testimonial i {
+.testimonial-icon {
     color: #A1BAAF;
     font-size: 50px;
-    margin-left: 50px;
-}
+    text-align: right;
+    margin-bottom: 0;
+    margin-right: 50px;
+    }
 
+.testimonial-heading {
+    margin-top: 0;
+}
 .social-links {
     text-align: center;
+
 }
 
 .social-links a {
@@ -325,6 +333,43 @@ body {
     color: #A1BAAF;
     font-size: 50px;
     padding: 30px;
+}
+
+/*--------------------------------- Contact */
+
+.contact-location {
+    text-align: center;
+}
+
+.contact-location a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-location a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 90%;
+    margin-bottom: 10px;
+    background-color: #A1BAAF;
+    border: 2px solid #39210C;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: #39210C;
+}
+
+.btn-submit {
+    border: 2px solid #39210C;
+    border-radius: 10px;
 }
 
 /*--------------------------------- Media Queries */
