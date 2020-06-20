@@ -215,7 +215,7 @@ body {
     font-size: 20px;
 }
 
-.price-modal,{
+.price-modal {
     color: #39210C;
 }
 
@@ -362,15 +362,19 @@ textarea {
     background-color: #A1BAAF;
     border: 2px solid #39210C;
     border-radius: 10px;
+    color: #39210C;
 }
 
 ::placeholder {
     color: #39210C;
 }
 
+
+
 .btn-submit {
     border: 2px solid #39210C;
     border-radius: 10px;
+    width: 100px;
 }
 
 /*--------------------------------- Footer */

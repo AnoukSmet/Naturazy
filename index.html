@@ -233,7 +233,7 @@
             </div>
             <div class="col-md-6">
             <h5 class="sub-heading">Contact Us!</h5>
-            <form class="row contact-form">
+            <form class="row contact-form" action="#" method="get"> 
                 <div class="col-12">
                 <input type="text" name="name" id="name" placeholder="Your Name" required>
                 </div>
@@ -244,10 +244,10 @@
                 <input type="text" name="phonenumber" id="phonenumber" placeholder="Phone Number" required>
                 </div>
                 <div class="col-12">
-                <textarea name="message" id="message" cols="30" rows="5" placeholder="Write your message here" required></textarea>
+                <textarea name="message" id="message" cols="30" rows="5">Write your message here</textarea>
                 </div>
                 <div class="col-12">
-                <button type="button" class="bg-color-light btn-submit" data-toggle="modal" data-target="#submitModal">Submit</button>
+                <input type="submit" value="Submit" name="submit" class="bg-color-light btn-submit" data-toggle="modal" data-target="#submitModal">
                 </div>
             </form>
             </div>
