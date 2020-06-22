@@ -407,7 +407,24 @@ textarea {
 
 /*--------------------------------- Media Queries */
  @media (max-width: 768px) {
-     .prices {
+    .prices {
          width: 90%;
      }
+    .navbar-brand {
+    font-family: "Eagle Lake", sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    float: left;
+    margin: 0;
+    padding: 0 10px 0 0;
+}
+
+.navbar-nav {
+    line-height: 40px;
+    font-family: "Fanwood Text", sans-serif;
+    font-size: 15px;
+    padding:0;
+
+}
+
      }
