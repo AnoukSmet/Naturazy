@@ -99,6 +99,11 @@ body {
 .nav-item {
     padding: 0;
 }
+
+:target{
+  padding-top:50px; 
+  margin-top:-50px;
+}
 /*--------------------------------- Hovers */
 
 .nav-link span:hover {
