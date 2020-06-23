@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Fanwood+Text&display=swap');
 
+html {
+  scroll-padding-top: 50px; /* height of sticky header */
+}
+
 body {
     font-family: "Fanwood Text", sans-serif;
     padding: 0;
@@ -42,6 +46,7 @@ body {
 }
 
 /*--------------------------------- Header */
+
 
 .navbar {
     text-align: left;
@@ -111,6 +116,12 @@ body {
 
 .active{
     border-bottom: 1px solid #39210C;
+}
+
+.btn-promotions:hover {
+    text-decoration: underline;
+    border: 3px solid #39210C;
+    color: #39210C;
 }
 
 /*--------------------------------- Hero image */
