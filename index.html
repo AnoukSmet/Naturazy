@@ -4,86 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naturazy</title>
-    <script src="https://kit.fontawesome.com/bd342919ea.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/sandstone/bootstrap.min.css">   
     <link rel="stylesheet" href="assets/css/style.css">
     
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example">
 
 <!-- Header with brand and navigation bar -->
-    <header> 
-        <div class="row bg-color-light no-gutters">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-sm navbar-dark">
-                <a href="index.html" class="navbar-brand">Naturazy</a>
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <header class="bg-color-light"> 
+        <nav class="navbar navbar-expand-sm navbar-dark" id="navbar-example">
+            <a href="index.html" class="navbar-brand">Naturazy</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fas fa-bars fa-1x"></i></span>
-                </button>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto d-flex">
-                        <li class="nav-item mr-2 flex-column"> 
-                            <a class="nav-link" href="index.html"><span class="active">Welcome</span></a>
-                        </li>
-                        <li class="nav-item mr-2 flex-column"> 
-                         <a class="nav-link" href="#tree-houses"><span>Tree Houses</span></a>
-                        </li>
-                        <li class="nav-item mr-2 flex-column"> 
-                            <a class="nav-link" href="#gallery"><span>Gallery</span></a>
-                        </li>
-                            <li class="nav-item mr-2 flex-column"> 
-                        <a class="nav-link" href="#testimonials"><span>Testimonials</span></a>
-                        </li>
-                        <li class="nav-item mr-2 flex-column"> 
-                            <a class="nav-link" href="#contact"><span>Contact</span></a>
-                        </li>
-                    </ul>
-                     </div>
-                    </nav>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto d-flex">
+                    <li class="nav-item mr-2 flex-column"> 
+                        <a class="nav-link" href="#welcome"><span class="navigation">Welcome</span></a>
+                    </li>
+                    <li class="nav-item mr-2 flex-column"> 
+                        <a class="nav-link" href="#tree-houses"><span class="navigation">Tree Houses</span></a>
+                    </li>
+                    <li class="nav-item mr-2 flex-column"> 
+                        <a class="nav-link" href="#gallery"><span class="navigation">Gallery</span></a>
+                    </li>
+                    <li class="nav-item mr-2 flex-column "> 
+                        <a class="nav-link" href="#testimonials"><span class="navigation">Testimonials</span></a>                        </li>
+                    <li class="nav-item mr-2 flex-column"> 
+                        <a class="nav-link" href="#contact"><span class="navigation">Contact</span></a>
+                    </li>
+                </ul>
             </div>
+        </nav>
     </header>
 
 <!-- Hero image -->
 
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-12 hero-image">
-            </div>
-        </div>
-    </section>
-
+<section id="hero-image"></section>
 <!-- Section with welcome message and about paragraph-->
 
-    <section class="container-fluid">  
+    <section class="container-fluid" id="welcome">  
         <div class="row bg-color-dark">
             <div class="col-12">
-            <hr class="hr">
+            <div class="hr"></div>
             <h2 class="heading">Welcome to Naturazy</h2>
-            <hr class="hr">
+            <div class="hr"></div>
             </div>
             <div class="col-md-4 text-property">
             <h3 class="sub-heading">About Naturazy</h3>
-            <p>
-            Waking up in the morning in a tree house is an amazing experience. <br>
-            Being closer to nature including the trees, birds, and other wildlife can revitalize the spirit. <br>
-            But, being at a tree house bed and breakfast can make the adventure much more exciting. <br>
-            Although, we give each of our tree house guests their fair share of privacy each night they stay with us, we also want to make sure that they get the royal treatment as well. <br>
-            Our breakfasts are served with love everyday and give us the joy of meeting each of you face to face and sharing our lives with each other. <br><br>
+            <p class="welcome-text">
+            Waking up in the morning in a tree house is an amazing experience. 
+            Being closer to nature including the trees, birds, and other wildlife can revitalize the spirit. 
+            But, being at a tree house bed and breakfast can make the adventure much more exciting. 
+            Although, we give each of our tree house guests their fair share of privacy each night they stay with us, we also want to make sure that they get the royal treatment as well.
+            Our breakfasts are served with love everyday and give us the joy of meeting each of you face to face and sharing our lives with each other.
             Come and discover this unique experience!
             </p>
             </div>
-            <div class="col-md-4 image-owners">
+            <div class="col-md-4">
+                <div class="image-owners"></div>
             </div>
             <div class="col-md-4 text-owners">
             <h3 class="sub-heading">About us</h3>
-            <p>
-            We’ve been in the hospitality business for quite a while and we know the importance of meeting face to face and serving on a personal level. <br>
-            We had longed dreamed of opening a bed and breakfast that would fuse Mark's passion for treehouses, Karin’s knack for hosting and cooking, and our shared love of nature. <br>
+            <p class="welcome-text">
+            We’ve been in the hospitality business for quite a while and we know the importance of meeting face to face and serving on a personal level.
+            We had longed dreamed of opening a bed and breakfast that would fuse Mark's passion for treehouses, Karin’s knack for hosting and cooking, and our shared love of nature.
             When we came across four acres for sale near our home in the the Ardennes, we knew the time was ripe to bring their dream to life. 
-            In 2006 we officialy opened Naturazy and welcomed our first guests. <br>
-            Thank you for visiting Naturazy! We strive to make you feel at home in the trees and to celebrate life, love, and nature. <br><br>
+            In 2006 we officialy opened Naturazy and welcomed our first guests. 
+            Thank you for visiting Naturazy! We strive to make you feel at home in the trees and to celebrate life, love, and nature.
             Mark & Karin
             </p>
             </div>
@@ -95,14 +86,22 @@
     <section class="container-fluid" id="tree-houses"> 
         <div class="row bg-color-dark">
             <div class="col-12">
-                <hr class="hr">
+                <div class="hr"></div>
                 <h2 class="heading">Discover our Tree Houses</h2>
-                <hr class="hr">
+                <div class="hr"></div>
             </div>
-            <div class="col-lg-3 col-md-4 treehouse-1-image"></div>
-            <div class="col-lg-3 col-md-4 treehouse-2-image"></div>
-            <div class="d-none d-lg-block col-lg-3 treehouse-3-image"></div>
-            <div class="d-none d-md-block col-md-4 col-lg-3 treehouse-4-image"></div>
+            <div class="col-lg-3 col-md-4">
+                <div class="treehouse-1-image"></div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <div class="treehouse-2-image"></div>
+            </div>
+            <div class="d-none d-lg-block col-lg-3">
+                <div class="treehouse-3-image"></div>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3">
+                <div class="treehouse-4-image"></div>
+            </div>
             <div class="col-10 offset-1">
                 <p class="treehouse-text">
                 Our Tree Houses are spacious enough to move about easily, is surrounded by windows, and has a queen size bed. <br>
@@ -118,8 +117,12 @@
                 Parking - there is free onsite parking available
                  </p>
             </div>
-            <div class="col-12 d-md-none treehouse-3-image"></div>
-            <div class="col-12 d-md-none treehouse-4-image"></div>
+            <div class="col-12 d-md-none">
+                <div class="treehouse-3-image"></div>
+            </div>
+            <div class="col-12 d-md-none">
+                <div class="treehouse-4-image"></div>
+            </div>
             <div class="col-10 offset-1">
                 <h4 class="sub-heading">Our Prices </h4>
                 <table class="table table-sm bg-color-dark prices">
@@ -159,25 +162,49 @@
 
 <!-- Gallery section -->
 
-    <section class="container-fluid" id="gallery"> 
+    <section class="container-fluid no-gutters"> 
         <div class="row bg-color-dark">
             <div class="col-12">
-                <hr class="hr">
+                <div class="hr"></div>
                 <h2 class="heading">Gallery</h2>
-                <hr class="hr">
+                <div class="hr"></div>
             </div> 
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-1"></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-3"></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-2"></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-4"></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-5"></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-7"></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-6"></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-8"></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-9"></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-10"></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-11"></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 gallery-image-12"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-treehouse-outside"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-treehouse-sideview"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-bedroom"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-terrace-view"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-outdoor-stairs"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-outdoor-fireplace"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-river-small"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-river-big"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-breakfast-buffet"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-breakfast-table"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-restaurant"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="gallery" id="gallery-outdoor-barbecue"></div>
+            </div>
         </div>        
     </section>
 
@@ -186,9 +213,9 @@
     <section class="container-fluid" id="testimonials"> 
         <div class="row bg-color-dark testimonial-section">
             <div class="col-12">
-                <hr class="hr">
+                <div class="hr"></div>
                 <h2 class="heading">Testimonials</h2>
-                <hr class="hr">
+                <div class="hr"></div>
             </div>
             <div class="col-md-5">
                 <div class="testimonial-icon">
@@ -232,9 +259,9 @@
     <section class="container-fluid" id="contact"> 
         <div class="row bg-color-dark">
             <div class="col-12">
-                <hr class="hr">
+                <div class="hr"></div>
                 <h2 class="heading">Contact</h2>
-                <hr class="hr">
+                <div class="hr"></div>
             </div>
             <div class="col-md-6 contact-location">
                 <h5 class="sub-heading">Contact Details</h5>
@@ -283,7 +310,6 @@
             </div>
         </div>
     </footer>
-
 <!-- Modal promotions and modal submit-->
 
  <div class="modal fade price-modal" id="promotionsModal" tabindex="-1" role="dialog" aria-labelledby="promotionsModalLabel" aria-hidden="true">
@@ -333,8 +359,8 @@
 
 <!-- Links bootstrap Javascript-->
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>

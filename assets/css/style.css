@@ -4,6 +4,8 @@ body {
     font-family: "Fanwood Text", sans-serif;
     padding: 0;
     margin: 0;
+    position: relative;
+    font-size: 16px;
 }
 
 /*--------------------------------- Colors */
@@ -50,18 +52,25 @@ body {
     position: fixed;
     overflow: hidden;
     top: 0;
-    width: 100%;
-    z-index: 1;
+    width: 100vw;
+    z-index: 999999999;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-link {
     padding: 0;
     display: absolute;
-}
-
-.nav-link span {
     color: #39210C;
 }
+
+.navigation {
+    color: #39210C;
+    font-size: 15px;
+    padding-left: 10px;
+    line-height: 50px;
+}
+
 
 .navbar-brand {
     font-family: "Eagle Lake", sans-serif;
@@ -69,7 +78,7 @@ body {
     line-height: 50px;
     float: left;
     margin: 0;
-    padding: 0 10px 0 0;
+    padding-left: 15px;
 }
 
 .navbar-dark .navbar-brand {
@@ -85,7 +94,6 @@ body {
     font-family: "Fanwood Text", sans-serif;
     font-size: 20px;
     padding:0;
-
 }
 
 .navbar-dark .navbar-toggler {
@@ -99,30 +107,22 @@ body {
 .nav-item {
     padding: 0;
 }
-
-:target{
-  padding-top:50px; 
-  margin-top:-50px;
-}
 /*--------------------------------- Hovers */
 
-.nav-link span:hover {
-    border-bottom: 1px solid #39210C;
-}
-
-.active {
+.active{
     border-bottom: 1px solid #39210C;
 }
 
 /*--------------------------------- Hero image */
 
-.hero-image {
+#hero-image {
     background: url('../images/nature-image.jpg')no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 80vh;
+    padding: 0;
 
 }
 
@@ -146,6 +146,11 @@ body {
     text-align: center;
     margin: auto;
     margin-top: 15px;
+}
+
+.welcome-text {
+    width: 90%;
+    word-wrap: break-word;
 }
 
 .about-heading {
@@ -227,89 +232,55 @@ body {
 
 /*--------------------------------- Gallery */
 
-.gallery-image-1 {
-    background: url('../images/gallery-1-image.jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
+.gallery {
     background-size: cover;
-    min-height: 300px;
-}
-.gallery-image-2 {
-    background: url('../images/gallery-2-image.jpg');
-    background-position: cover;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+    width: 100%;
+    min-height:300px;
+    background-position: center center;
+    text-align:center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding:0;  
 }
-.gallery-image-3 {
-    background: url('../images/gallery-3-image.jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+
+#gallery-treehouse-outside {
+    background-image: url('../images/gallery-treehouse-outside.jpg');
 }
-.gallery-image-4 {
-    background: url('../images/gallery-4-image.jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+#gallery-treehouse-sideview {
+    background-image: url('../images/gallery-treehouse-sideview.jpg');
 }
-.gallery-image-5 {
-    background: url('../images/gallery-5-image.jpg');
+#gallery-bedroom {
+    background-image: url('../images/gallery-bedroom.jpg');
+}
+#gallery-terrace-view {
+    background-image: url('../images/gallery-terrace-view.jpg');
+}
+#gallery-outdoor-stairs {
+    background-image: url('../images/gallery-outdoor-stairs.jpg');
     background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
 }
-.gallery-image-6 {
-    background: url('../images/gallery-6-image.jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+#gallery-river-small {
+    background-image: url('../images/gallery-river-small.jpg');
 }
-.gallery-image-7 {
-    background: url('../images/gallery-7-image.jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+#gallery-outdoor-fireplace {
+    background-image: url('../images/gallery-outdoor-fireplace.jpg');
 }
-.gallery-image-8 {
-    background: url('../images/gallery-8-image.jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+#gallery-river-big {
+    background-image: url('../images/gallery-river-big.jpg');
 }
-.gallery-image-9 {
-    background: url('../images/gallery-9-image.jpeg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+#gallery-breakfast-buffet {
+    background-image: url('../images/gallery-breakfast-buffet.jpeg');
 }
-.gallery-image-10 {
-    background: url('../images/gallery-10-image.jpeg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+#gallery-breakfast-table {
+    background-image: url('../images/gallery-breakfast-table.jpeg');
 }
-.gallery-image-11 {
-    background: url('../images/gallery-11-image.jpeg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+#gallery-restaurant {
+    background-image: url('../images/gallery-restaurant.jpeg');
 }
-.gallery-image-12 {
-    background: url('../images/gallery-12-image.jpeg');
+#gallery-outdoor-barbecue {
+    background-image: url('../images/gallery-outdoor-barbecue.jpeg');
     background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
 }
 /*--------------------------------- Testimonials */
 .testimonial {  
@@ -428,3 +399,9 @@ textarea {
 }
 
      }
+
+@media (min-width: 576px) {
+.navbar-expand-sm .navbar-collapse {
+    display: block;
+}
+}
