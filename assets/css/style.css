@@ -129,14 +129,11 @@ body {
 /*--------------------------------- Welcome section */
 
 .image-owners {
-    background: url('../images/owners-image.png');
+    background-image: url('../images/owners-image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 300px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
     border-radius: 50%;
     margin: 15px 0;
 }
@@ -161,36 +158,31 @@ body {
 
 /*--------------------------------- Tree house section */
 
-.treehouse-1-image {
-    background: url('../images/treehouse-1-image.jpg');
+.treehouse-images {
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.treehouse-2-image {
-    background: url('../images/treehouse-2-image.jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+#treehouse-outside {
+    background-image: url('../images/treehouse-outside.jpg');
 }
 
-.treehouse-3-image {
-    background: url('../images/treehouse-3-image.jpg');
+#treehouse-living-room {
+    background-image: url('../images/treehouse-living-room.jpg');
+}
+
+#treehouse-terrace {
+    background-image: url('../images/treehouse-terrace.jpg');
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
 }
 
-.treehouse-4-image {
-    background: url('../images/treehouse-4-image.jpg');
+#treehouse-bedroom {
+    background-image: url('../images/treehouse-bedroom.jpg');
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
 }
 
 .treehouse-text {
