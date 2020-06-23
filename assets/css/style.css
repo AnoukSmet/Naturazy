@@ -53,7 +53,7 @@ body {
     overflow: hidden;
     top: 0;
     width: 100vw;
-    z-index: 999999999;
+    z-index: 999999;
     padding: 0;
     margin: 0;
 }
@@ -211,7 +211,7 @@ body {
     background-color:#A1BAAF;
     color: #39210C;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 30px;
     border: 3px solid #39210C;
     border-radius: 10px;
     font-size: 20px;
@@ -219,8 +219,46 @@ body {
 
 .price-modal {
     color: #39210C;
+    z-index: 9999991;
 }
 
+.pricing-title {
+    font-family: "Eagle lake", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pricing-content li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.pricing-content {
+    padding: 0;
+    font-size: 20px;
+}
+
+.pricingTable {
+    text-align: center;
+    border: 4px solid #A1BAAF;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.price-value {
+    margin-top: 30px;
+}
+.price-value h4 {
+    text-decoration: underline;
+    margin-top: 10px;
+    }
 
 /*--------------------------------- Gallery */
 
