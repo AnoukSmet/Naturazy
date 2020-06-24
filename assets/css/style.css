@@ -446,13 +446,10 @@ textarea {
 
 
     #hero-image {
-        background: url('../images/nature-image.jpg')no-repeat center bottom fixed; 
-        background-size: contain;
-        height: 80vh;
-        padding: 0;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        text-align:center;
     }
     .social-links a {
     font-size: 4rem;
