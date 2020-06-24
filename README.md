@@ -15,7 +15,7 @@ This will be my first project for which I will use HTML & CSS in order to create
     * [User Goals](#user-goals)
     * [User Stories](#user-stories)
     * [Site Owners Goals](#site-owners-goals)
-    * [User Requirements & Expectations](#user-requirements-&-expectations)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
         * [Requirements](#requirements)
         * [Expectations](#expectations)
     * [Design Choices](#design-choices)
@@ -24,6 +24,16 @@ This will be my first project for which I will use HTML & CSS in order to create
         * [Colors](#colors)
         * [Structure](#structure)
 * [Wireframes](#wireframes)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features to be implemented](#features-to-be-implemented)
+* [Technologies used](#technologies-used)
+    * [Languages](#languages)
+    * [Tools and Libraries](#tools-and-libraries)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
 
 <a name="ux"></a>
 ## **UX**
@@ -154,4 +164,81 @@ You can find my wireframes below:
 
 ---
 
+<a></a>
+## **Features**
+<a></a>
+### **Existing Features**
 
+#### navigation
+For the navbar I have used Boostrap to create a responsive navbar. 
+I have implemented as well the hamburger icon for mobile devices to be more user-friendly. 
+In order to navigate more easilty through the site, I have implemented to scroll spy option from bootstrap to let the user exactly know where they are located on the site. 
+For this to work properly I have fixed the navbar on the top of the page.
+
+
+#### Hero Image
+
+I have decided to implement a hero image which spreads over 100% of the screen. In order to make the user curious about what follows next, I decided to set the height at 80vh so show a little peek of what comes next.
+The image responds well when viewing on desktop, tablet and mobile.
+
+#### Welcome Section
+
+Here I used the grid from Bootstrap to create 3 colums on desktop view which turn into full width on mobile devices. 
+
+#### Tree Houses Section
+
+Here I also worked with the grid which was a bit more challenging. I implement 4 pictures who show all next to each other on desktop. 
+On Tablet I have decided to hide 1 picture and on mobile I decided to hide 2 of the pictures and only show them after the introduction text of the tree houses.
+In order to accomplish this, I used display: none and display: block when creating the columns. 
+
+For the price section, I have a used a responsive pricing table instead of the normal table in bootstrap. 
+I have worked with icons here to really show the difference between the 3 pricing models. 
+
+Under the pricing model I have inserted a button which opens a modal with the current promotions. 
+
+#### Gallery
+
+For the gallery I have created a class which contains all the settings for position, size and height. 
+Every image also got an ID where I added the background-image and in some cases I overwrote the position to be more appealing. 
+
+#### Testimonials
+
+Here I also worked with the grid from bootstrap and as well some icons to make the section more visually appealing. 
+Under the testimonials I have added the links to social media using icons which opens in a separate tab in the browers. 
+This to make the website more user friendly.
+
+#### Contact 
+At the contact section I have provided contact and location details on the left. 
+On the right I implemented a form which they can fill in if they would like to get in contact with the owners. 
+Below the form there is a submit button which also triggers a modal to open up which gives feedback to the user that the form has been successfully submitted.
+
+
+<a></a>
+### **Features to be implemented**
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+## **Technologies used**
+<a></a>
+### **Languages**
+
+<a></a>
+### **Tools and Libraries**
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+## **Testing**
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+## **Deployment**
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+## **Credits**
+
+[Back to Top](#table-of-contents)
