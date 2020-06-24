@@ -147,8 +147,7 @@ body {
     margin: 1.5rem 0;
 }
 
-.text-property,
-.text-owners {
+.text-property {
     text-align: center;
     margin: auto;
     margin-top: 1.5rem;
@@ -156,7 +155,8 @@ body {
 
 .welcome-text {
     width: 90%;
-    word-wrap: break-word;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .about-heading {
@@ -192,11 +192,6 @@ body {
 .treehouse-bedroom {
     background-image: url('../images/treehouse-bedroom.jpg');
     background-position: center;
-}
-
-.treehouse-text {
-    text-align: center;
-    margin-top: 1.5rem;
 }
 
 .policies {
