@@ -310,4 +310,30 @@ To run the project locally:
 <a></a>
 ## **Credits**
 
+### Content - Media - Inspiration
+
+I have used the following websites to gather ideas and information for the overall content of my website: 
+
+https://hermanncottage.com/
+
+https://www.treehousepoint.com/
+
+https://www.quirkyaccom.com/treehouse-holidays
+
+From the first 2 website I have also used most of the images for my website. 
+
+I have used https://unsplash.com/ for my hero image and the picture of the owners.
+
+### Acknowledgements
+
+First of all, I would like to thank my mentor Simen (Eventyret_mentor) for guiding me throughout this project. 
+He helped me to brainstorm about ideas which were in line with my interests. 
+During the mid review, he gave me a lot of tips in order to improve my code and to implement some other features in order to make my website more user friendly. 
+
+I would also like to thank my partner Artur and my parents to provide honest feedback about the website and to put themselves in the shoes of the users.
+
+My inspiration I got mostly from runnning a bed & breakfast myself in Portugal a couple of years ago. 
+This experience gave me some good insights of what owners expect from their website. 
+As one of my passions is travelling, I also managed to put myself in the shoes of a potential guests. 
+
 [Back to Top](#table-of-contents)
