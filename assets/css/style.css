@@ -53,7 +53,6 @@ body {
 
 .navbar {
     text-align: left;
-    align-items: right;
     display: block;
     color: #39210C;
     background-color: #A1BAAF;
@@ -68,7 +67,6 @@ body {
 
 .nav-link {
     padding: 0;
-    display: absolute;
     color: #39210C;
 }
 
@@ -170,7 +168,7 @@ body {
 /*--------------------------------- Tree house section */
 
 .treehouse-images {
-    background-position: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 30rem;
@@ -186,12 +184,12 @@ body {
     background-image: url('../images/treehouse-living-room.jpg');
 }
 
-#treehouse-terrace {
+.treehouse-terrace {
     background-image: url('../images/treehouse-terrace.jpg');
     background-position: center;
 }
 
-#treehouse-bedroom {
+.treehouse-bedroom {
     background-image: url('../images/treehouse-bedroom.jpg');
     background-position: center;
 }
@@ -453,6 +451,6 @@ textarea {
 }
 .social-links a {
     font-size: 4rem;
-    
+    padding: 2rem;
 }
 }
