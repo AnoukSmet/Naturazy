@@ -303,6 +303,11 @@ This links take you to the general website and not to a specific page as they do
 * Footer 
 I implement the brand again in the footer which takes you again to the top of the page when clicking on it. 
 
+### Bugs
+
+#### Mobile
+* The hero image doesn't show nicely due to the picture not being of high resolution
+* The icons for social media don't appear next to each other. The icon for instagram shows below. 
 
 [Back to Top](#table-of-contents)
 

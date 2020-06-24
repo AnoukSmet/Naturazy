@@ -451,4 +451,8 @@ textarea {
 .navbar-expand-sm .navbar-collapse {
     display: block;
 }
+.social-links a {
+    font-size: 4rem;
+    
+}
 }
