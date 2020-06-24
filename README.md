@@ -282,6 +282,28 @@ This site was used to check the CSS code in the project.
 <a></a>
 ## **Testing**
 
+* Navbar:
+All the links in the navigation bar works properly. Also the scrollspy works properly and underlines the correct link wherever you are on the page. 
+This by implementing the data offset. The navbar also converts nicely into the hamburger sign with the dropdown menu on mobile devices.
+
+* Various sections: 
+All the sections work as intended and display nicely on desktop, tablet and mobile. 
+
+* Modals 
+The modals are triggered by clicking the 2 different buttons and show correctly over the navbar by setting the Z-index.
+
+* Contact Form 
+The contact form works properly but like mentioned before, I would like to implement the form validation in order for the input to be valid before being able to submit the form.
+At this time, I don't have the skills yet to implement this but this is definitely a feature to be implemented in the future. 
+
+* Links
+All the links to social media like facebook, instagram and tripadvisor work correctly and open in a new tab like planned. 
+This links take you to the general website and not to a specific page as they don't exist. This would be updated when the property would exist.
+
+* Footer 
+I implement the brand again in the footer which takes you again to the top of the page when clicking on it. 
+
+
 [Back to Top](#table-of-contents)
 
 <a></a>
