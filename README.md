@@ -169,7 +169,7 @@ You can find my wireframes below:
 <a></a>
 ### **Existing Features**
 
-#### navigation
+#### Navigation
 For the navbar I have used Boostrap to create a responsive navbar. 
 I have implemented as well the hamburger icon for mobile devices to be more user-friendly. 
 In order to navigate more easilty through the site, I have implemented to scroll spy option from bootstrap to let the user exactly know where they are located on the site. 
@@ -216,6 +216,13 @@ Below the form there is a submit button which also triggers a modal to open up w
 <a></a>
 ### **Features to be implemented**
 
+* Interactive map for location with a link to google maps
+* Direct booking module to increase direct bookings
+* Form validation to make sure that the form can not be submitted when the fields are not filled in. The modal should only appear whenever all the fields were correctly filled in
+* Chat bot that links with the whatsapp of the property
+* Links to external partners / companies like restaurants, activities in the neighbourhood, hike trails etc.
+* Include information on how their data will be used (GDPR-Law)
+
 [Back to Top](#table-of-contents)
 
 <a></a>
@@ -223,8 +230,52 @@ Below the form there is a submit button which also triggers a modal to open up w
 <a></a>
 ### **Languages**
 
+#### HTML
+
+I have used HTML to write the main content of my website and to give the overall lay out.
+
+#### CSS
+
+I have used CSS to style the elements on the website and used it to overwrite the basic styling from bootstrap.
+
+#### JavaScript
+
+I have implemented some basic JavaScript features from Bootstrap. This to create 2 modals and the hamburger icon for the navigation bar on mobile devices.
+
 <a></a>
 ### **Tools and Libraries**
+
+#### Font Awesome
+
+I used this library to obtain icons for social media, pricing model and testimonials. 
+
+#### Bootstrap
+
+I have used the library of Bootstrap to provide an overall lay out of my website using the grid. 
+I also implemented other components like the navbar, pricing model, modals to style individual sections on my website. 
+
+#### Google Fonts
+
+I browsed the library of google fonts in order to obtain appealing fonts for the website.
+
+#### Git
+
+I have used GitPod to write and style my code. 
+I have used the following commands in the terminal to make sure my code was saved properly:
+* git add
+* git commit -m ""
+* git push
+
+#### Balsamiq
+
+I have used Balsamiq to make my wireframes for desktop, tablet and mobile.
+
+#### W3C HTML Validation Service
+This site was used to check the HTML code in the project.
+
+#### W3C CSS Validation Service
+This site was used to check the CSS code in the project.
+
 
 [Back to Top](#table-of-contents)
 
@@ -235,6 +286,24 @@ Below the form there is a submit button which also triggers a modal to open up w
 
 <a></a>
 ## **Deployment**
+
+This project was deployed via GitHub by executing the following steps.
+After writing the code, committing and pushing it to GitHub:
+
+1. Navigate to the repository on github and click Settings.
+1. From there, go to the Source section within the Github Pages section.
+1. Select master branch on the dropdown menu, and click save.
+1. Now the website is live on https://anouksmet.github.io/Naturazy/ 
+1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+
+To run the project locally:
+
+1. Click the green Clone or Download button on the Github Repository
+1. Using the Clone with HTTPS option, copy the link displayed.
+1. Open your IDE, and ensure the Git Terminal is open.
+1. Change the working directory to the location where the cloned directory is to go.
+1. Use the "git clone" command and paste the url copied in the second step.
+
 
 [Back to Top](#table-of-contents)
 
