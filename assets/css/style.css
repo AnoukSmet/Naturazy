@@ -45,7 +45,7 @@ body {
     font-family: "Eagle Lake", sans-serif;
     text-align: center;
     margin: 1.5rem 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 /*--------------------------------- Header */
@@ -69,7 +69,7 @@ body {
     height: 100%;
     padding: 0;
     color: #39210C;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
 }
 .navbar-collapse {
 text-align: center;
