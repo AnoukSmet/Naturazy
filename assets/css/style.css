@@ -468,6 +468,21 @@ textarea {
     font-size: 4rem;
     padding: 2rem;
     }
+
+    #hero-section {
+        height: 80vh;
+    }
+
+    #hero-image {
+    background-image: url('../images/forest-image.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0;
+}
 }
 
 @media (min-width: 576px) {
