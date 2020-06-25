@@ -305,9 +305,17 @@ I implement the brand again in the footer which takes you again to the top of th
 
 ### Bugs
 
+#### Bugs on all screen sizes
+
+* The user is able to submit the form without filling in the fields. Modal always appears. Currently I don't have the required skills yet to implement to form validation.
+This will be resolved in further releases
+
 #### Mobile
 * The hero image doesn't show nicely due to the picture not being of high resolution
 * The icons for social media don't appear next to each other. The icon for instagram shows below. 
+--> this bug has been fixed to decreasing fontsize and padding of icons on smaller screens
+* When clicking the links in the collapsed navigation, it stays open instead of closing
+
 
 [Back to Top](#table-of-contents)
 
