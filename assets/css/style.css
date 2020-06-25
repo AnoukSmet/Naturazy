@@ -66,8 +66,12 @@ body {
 }
 
 .nav-link {
+    height: 100%;
     padding: 0;
     color: #39210C;
+}
+.navbar-collapse {
+text-align: center;
 }
 
 .navigation {
@@ -75,6 +79,7 @@ body {
     font-size: 1.5rem;
     padding-left: 1rem;
     line-height: 5rem;
+    margin: auto;
 }
 
 
@@ -106,6 +111,8 @@ body {
     color: #39210C;
     border-color: #39210C;
     padding: 1.5rem;
+    float: right;
+    margin-right: 0.5rem;
 }
 
 .nav-item {
