@@ -70,6 +70,7 @@ body {
     padding: 0;
     color: #39210C;
     margin-right: 1.5rem;
+    float: left;
 }
 .navbar-collapse {
 text-align: center;
@@ -141,7 +142,7 @@ text-align: center;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     height: 80vh;
     padding: 0;
 }
@@ -468,21 +469,14 @@ textarea {
     font-size: 4rem;
     padding: 2rem;
     }
-
-
-    #hero-image {
-    background-image: url('../images/forest-image.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height:30rem;
-    background-position: center center;
-    text-align:center;
-}
 }
 
 @media (min-width: 576px) {
 .navbar-expand-sm .navbar-collapse {
     display: block;
+}
+
+#hero-image {
+    background-attachment: fixed;
 }
 }
