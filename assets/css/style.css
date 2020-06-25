@@ -134,7 +134,7 @@ text-align: center;
 
 #hero-image {
     background-image: url('../images/forest-image.jpg');
-    background-position: bottom center;
+    background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -454,12 +454,6 @@ textarea {
         padding-left: 0.5rem;
     }
 
-    #hero-image {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        text-align:center;
-    }
     .social-links a {
     font-size: 4rem;
     padding: 2rem;
