@@ -15,7 +15,7 @@
 <!-- Header with brand and navigation bar -->
     <header class="bg-color-light"> 
         <nav class="navbar navbar-expand-sm navbar-dark" id="navbar-example">
-            <a href="#hero-image" id="navbar-brand">Naturazy</a>
+            <a href="#hero-image" id="navbar-brand" aria-label="logo">Naturazy</a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fas fa-bars fa-1x"></i></span>
             </button>
@@ -23,19 +23,19 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto d-flex" id="navigation">
                     <li class="nav-item mr-2 flex-column"> 
-                        <a class="nav-link" href="#welcome">Welcome</a>
+                        <a class="nav-link" href="#welcome" aria-label="welcome">Welcome</a>
                     </li>
                     <li class="nav-item mr-2 flex-column"> 
-                        <a class="nav-link" href="#tree-houses">Tree Houses</a>
+                        <a class="nav-link" href="#tree-houses" aria-label="Tree Houses">Tree Houses</a>
                     </li>
                     <li class="nav-item mr-2 flex-column"> 
-                        <a class="nav-link" href="#gallery">Gallery</a>
+                        <a class="nav-link" href="#gallery" aria-label="Gallery">Gallery</a>
                     </li>
                     <li class="nav-item mr-2 flex-column"> 
-                        <a class="nav-link " href="#testimonials">Testimonials</a>      
+                        <a class="nav-link " href="#testimonials" aria-label="Testimonials">Testimonials</a>      
                     </li>
                     <li class="nav-item mr-2 flex-column"> 
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact" aria-label="Contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -189,7 +189,7 @@
             </div>
 
                 <div class="promotions">
-                <button type="button" class="btn btn-promotions" data-toggle="modal" data-target="#promotionsModal">
+                <button class="btn btn-promotions" data-toggle="modal" data-target="#promotionsModal">
                 Check out our amazing promotions!
                 </button>
                 </div>
@@ -282,11 +282,11 @@
             </div> 
             <div class="col-12">
             <h5 class="sub-heading">Find out more </h5>
-            <p class="social-links">
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.tripadvisor.com/" target="_blank"><i class="fab fa-tripadvisor"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-            </p>
+            <div class="social-links">
+            <a href="https://www.facebook.com/" target="_blank" aria-label="Follow us on Facebook" rel="noopener"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.tripadvisor.com/" target="_blank" aria-label="Visit us on Tripadvisor" rel="noopener"><i class="fab fa-tripadvisor"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Follow us on Instagram" rel="noopener"><i class="fab fa-instagram"></i></a>
+            </div>
             </div>
         </div>        
     </section>
@@ -302,18 +302,18 @@
             </div>
             <div class="col-md-6 contact-location">
                 <h5 class="sub-heading">Contact Details</h5>
-                <p>
+                <div>
                 Phone number:
-                +32 3 752 21 90 <br>
+                <span class="contact-info">+32 3 752 21 90</span>
                 Email address:
-                <a href="mailto:info@naturazy.be">info@naturazy.be </a> <br>
-                </p>
+                <a href="mailto:info@naturazy.be" aria-label="Email us">info@naturazy.be </a> <br>
+                </div>
                 <h5 class="sub-heading">Location</h5>
-                <p>
-                Avenue Léopold II 40 <br>
-                4900 Spa <br>
+                <div>
+                Avenue Léopold II 40
+                <span class="contact-info">4900 Spa </span>
                 Belgium
-                </p>
+                </div>
             </div>
             <div class="col-md-6">
                 <h5 class="sub-heading">Contact Us!</h5>
@@ -321,20 +321,19 @@
                     <div class="col-12">
                         <form id="contact-form"> 
                             <div class="col-12">
-                                <input type="text" name="name" id="name" placeholder="Full Name" required>
+                                <input class="contact-input" type="text" name="name" id="name" placeholder="Full Name" required>
                             </div>
                             <div class="col-12">
-                                <input type="email" name="email" id="email" placeholder="Email Address" required>
+                                <input class="contact-input" type="email" name="email" id="email" placeholder="Email Address" required>
                             </div>
                             <div class="col-12">
-                                <input type="text" name="phonenumber" id="phonenumber" placeholder="Phone Number" required>
+                                <input class="contact-input" type="text" name="phonenumber" id="phonenumber" placeholder="Phone Number" required>
                             </div>
                             <div class="col-12">
-                                <textarea name="message" id="message" cols="30" rows="5" required placeholder="Write your message here"></textarea>
+                                <textarea class="contact-input" name="message" id="message" cols="30" rows="5" required placeholder="Write your message here"></textarea>
                             </div>
                             <div class="col-12">
                                 <button type="submit" class="bg-color-light btn-submit">Submit</button>
-                                <!-- <input type="submit" value="Submit" name="submit" class="bg-color-light btn-submit" data-toggle="modal" data-target="#submitModal"> -->
                             </div> 
                         </form>
                     </div>

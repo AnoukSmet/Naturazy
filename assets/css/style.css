@@ -67,11 +67,11 @@ body {
 
 #navbar-brand {
     font-family: "Eagle Lake", sans-serif;
-    font-size: 4rem;
-    line-height: 5rem;
+    font-size: 3rem;
+    line-height: 4rem;
     float: left;
     margin: 0;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     color: #39210C;
     text-decoration: none;
 }
@@ -273,7 +273,7 @@ text-align: right;
     border: 4px solid #A1BAAF;
     height: 40rem;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
 }
 
 .price-value {
@@ -357,7 +357,11 @@ text-align: right;
 }
 .social-links {
     text-align: center;
+}
 
+.social-links a {
+    font-size: 4rem;
+    padding-left: 2rem;
 }
 
 .social-links a {
@@ -382,12 +386,15 @@ text-align: right;
     text-decoration: underline;
 }
 
+.contact-info {
+    display: block;
+}
+
 #contact-form {
     text-align: center;
 }
 
-input,
-textarea {
+.contact-input {
     width: 80%;
     margin-bottom: 1rem;
     background-color: #A1BAAF;
@@ -404,6 +411,7 @@ textarea {
     border: 2px solid #39210C;
     border-radius: 1rem;
     width: 10rem;
+    margin-bottom: 1rem;
 }
 .submit-modal {
     z-index: 9999991;
@@ -440,34 +448,14 @@ textarea {
 
 /* Media Queries */
 
- @media (max-width: 768px) {
+ @media (min-width: 768px) {
     .pricingTable {
-         width: 90%;
+         width: 80%;
      }
-    .navbar-brand {
-        font-family: "Eagle Lake", sans-serif;
-        font-size: 3rem;
-        line-height: 4rem;
-        float: left;
-        margin: 0;
-        padding: 0 1rem 0 0;
-    }
-
-    .navbar-nav {
-        line-height: 4rem;
-        font-family: "Fanwood Text", sans-serif;
-        font-size: 1.5rem;
-        padding:0;
-    }  
-
-    .navigation {
-        font-size: 1rem;
-        padding-left: 0.5rem;
-    }
-
-    .social-links a {
-    font-size: 4rem;
-    padding: 2rem;
+    #navbar-brand {
+        font-size: 4rem;
+        line-height: 5rem;
+        padding-left: 1.5rem;
     }
 }
 
