@@ -15,7 +15,7 @@
 <!-- Header with brand and navigation bar -->
     <header class="bg-color-light"> 
         <nav class="navbar navbar-expand-sm navbar-dark" id="navbar-example">
-            <a href="index.html" class="navbar-brand">Naturazy</a>
+            <a href="#hero-image" class="navbar-brand">Naturazy</a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fas fa-bars fa-1x"></i></span>
             </button>
@@ -151,7 +151,7 @@
                     <div class="pricingTable red">
                         <div class="pricingTable-header">
                             <h3 class="pricing-title">2 people</h3>
-                            <div class="icon"><i class="fas fa-user"></i><i class="fas fa-user"></i></div>
+                            <div class="icon"><i class="fas fa-user"></i><i class="fas fa-user ml-3"></i></div>
                         </div>
                         <ul class="pricing-content">
                             <li>Breakfast Included</li>
@@ -170,7 +170,7 @@
                     <div class="pricingTable">
                         <div class="pricingTable-header">
                             <h3 class="pricing-title">3 people</h3>
-                            <div class="icon"><i class="fas fa-user"></i><i class="fas fa-user"></i><i class="fas fa-user"></i></div>
+                            <div class="icon"><i class="fas fa-user"></i><i class="fas fa-user ml-3"></i><i class="fas fa-user ml-3"></i></div>
                         </div>
                         <ul class="pricing-content">
                             <li>Breakfast Included</li>
@@ -357,16 +357,16 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title price-modal-title" id="promotionsModalLabel">Promotions</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <a href="#" data-dismiss="modal" aria-label="close"><i class="fas fa-times icon-close"></i></a>
       </div>
       <div class="modal-body">
-        <p>
-        Stay 2 nights - Get <b>15%</b> off! <br>
-        Stay 3 nights - Get <b>25% </b>off! <br>
-        Stay 4 nights - Get <b>35% </b>off! <br>
-        </p>
+        <div>
+            <ul>
+                <li> Stay 2 nights - Get <b>15%</b> off! </li>
+                <li> Stay 3 nights - Get <b>25% </b>off! </li>
+                <li> Stay 4 nights - Get <b>35% </b>off! </li>
+            </ul>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn bg-color-light" data-dismiss="modal">Close</button>
@@ -380,9 +380,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title submit-modal-title" id="submitModalLabel">Thank you!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <a href="#" data-dismiss="modal" aria-label="close"><i class="fas fa-times icon-close"></i></a>
       </div>
       <div class="modal-body">
         <p>
