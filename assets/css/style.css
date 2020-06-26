@@ -51,7 +51,6 @@ body {
 
 /* Header */
 
-
 .navbar {
     text-align: left;
     display: block;
@@ -66,48 +65,15 @@ body {
     margin: 0;
 }
 
-.nav-link {
-    height: 100%;
-    padding: 0;
-    color: #39210C;
-    margin-right: 1.5rem;
-    float: left;
-}
-.navbar-collapse {
-text-align: center;
-}
-
-.navigation {
-    color: #39210C;
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    line-height: 5rem;
-    margin: auto;
-}
-
-
-.navbar-brand {
+#navbar-brand {
     font-family: "Eagle Lake", sans-serif;
     font-size: 4rem;
     line-height: 5rem;
     float: left;
     margin: 0;
     padding-left: 1.5rem;
-}
-
-.navbar-dark .navbar-brand {
     color: #39210C;
-}
-
-.navbar-dark .navbar-brand:hover {
-    color: #39210C;
-}
-
-.navbar-nav {
-    line-height: 5rem;
-    font-family: "Fanwood Text", sans-serif;
-    font-size: 2rem;
-    padding:0;
+    text-decoration: none;
 }
 
 .navbar-dark .navbar-toggler {
@@ -115,17 +81,28 @@ text-align: center;
     border-color: #39210C;
     padding: 1.5rem;
     float: right;
-    margin-right: 0.5rem;
+    margin: 0.5rem;
 }
 
-.nav-item {
+#navigation li a {
+    height: 100%;
     padding: 0;
+    margin-right: 2.5rem;
+    float: left;
+    line-height: 5rem;
+    color: #39210C ;
+    font-size: 1.25rem;  
+}
+
+.navbar-collapse {
+text-align: right;
 }
 
 /* Hovers */
 
 .active{
-    border-bottom: 1px solid #39210C;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .btn-promotions:hover {
