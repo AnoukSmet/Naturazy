@@ -215,6 +215,7 @@ Under the pricing model I have inserted a button which opens a modal with the cu
 
 For the gallery I have created a class which contains all the settings for position, size and height. 
 Every image also got an ID where I added the background-image and in some cases I overwrote the position to be more appealing. 
+I decided to not go with my original design like written in my wireframes as I had the feeling the images looked nicer having a full width on mobile instead 50%.
 
 #### Testimonials
 
@@ -233,7 +234,7 @@ Below the form there is a submit button which also triggers a modal to open up w
 
 * Interactive map for location with a link to google maps
 * Direct booking module to increase direct bookings
-* Form validation to make sure that the form can not be submitted when the fields are not filled in. The modal should only appear whenever all the fields were correctly filled in
+* Whenever the form is submitted correctly, the information should be send to the email account of the property.
 * Chat bot that links with the whatsapp of the property
 * Links to external partners / companies like restaurants, activities in the neighbourhood, hike trails etc.
 * Include information on how their data will be used (GDPR-Law)
@@ -265,38 +266,116 @@ Below the form there is a submit button which also triggers a modal to open up w
 <a></a>
 ## **Testing**
 
-* Navbar:
-All the links in the navigation bar works properly. Also the scrollspy works properly and underlines the correct link wherever you are on the page. 
-This by implementing the data offset. The navbar also converts nicely into the hamburger sign with the dropdown menu on mobile devices.
+### Navigation bar
 
-* Various sections: 
-All the sections work as intended and display nicely on desktop, tablet and mobile. 
+#### Plan:
+I want to include a navigation bar which will be fixed on top. 
+While scrolling down the page, I want to give the user a clear view on where they are located on the site by using the scrollspy.
+Whenever clicked on one of the navigation links, it should take you where you want to go.
+To be more attractive and easy to use on mobile, I want the navigation bar to convert to a hamburger sign with a dropdown.
 
-* Modals 
-The modals are triggered by clicking the 2 different buttons and show correctly over the navbar by setting the Z-index.
+#### Implementation:
+I implemented the navigation bar using Bootstrap. This helps to give an overall structure and lay out to the navbar. 
+I have used CSS to overwrite the default settings and making the navbar in line with the overall webite. 
+In the body element I implemented the scrollspy and gave it an offset so whenever you click on one of the links, it shows the title with some spacing around. 
+I have also used Bootstrap to implement the hamburger sign for mobile devices. 
 
-* Contact Form 
-The contact form works properly but like mentioned before, I would like to implement the form validation in order for the input to be valid before being able to submit the form.
-At this time, I don't have the skills yet to implement this but this is definitely a feature to be implemented in the future. 
+#### Test:
+To test the navigation bar, I have click all the links to make sure it works properly. 
+I have also opened the website in various browers (safari, google chrome, mozilla firefox) to make sure it works on all browsers and devices".
+Also double checked the scrollspy on the various browsers and devices. 
+On mobile the navigation transformed into the hamburger sign with a dropdown menu.
 
-* Links
-All the links to social media like facebook, instagram and tripadvisor work correctly and open in a new tab like planned. 
-This links take you to the general website and not to a specific page as they don't exist. This would be updated when the property would exist.
+#### Result: 
+The navigation bar shows nicely like expected on all browsers and devices. 
+It did notice that the contact link was too close to the right side of the screen with I solved by increasing the margin. 
+All the links work properly and the scrollspy gives a clear view on where you are located on the page. 
 
-* Footer 
-I implement the brand again in the footer which takes you again to the top of the page when clicking on it. 
+#### Verdict: 
+The test has passed all the criteria and works like planned.
+
+### Modals
+#### Plan:
+I want to implement 2 modals which open up when you click on 'Check out our amazing promotions' and one for providing feedback when you submit the form correctly. 
+
+#### Implementation:
+As I don't have the required skills yet to write JavaScript, I have used Bootstrap to include the modals on the website. 
+I centered the modal vertically and horizontally as my overall website is centered and like this, it feels more like part of the website. 
+I have used the same colors as my overall website by overwriting the standard css provided by bootstrap.
+In order to center the title of the modal, I received some help from my mentor as I couldn't figure it out myself. 
+By adding a width of 100%, I managed to center the title as well which made the modal more visually appealing.
+
+#### Test:
+I have tested both modals on various devices and browsers. 
+The modal was nicely centered and feels in line with the overall website. 
+The promotion modal is being triggered by clicking the button and the submitting modal is triggered whenever the form was filled in correctly. 
+
+#### Result:
+The modals opened up when the correct button was clicked and appeared centered on the screen.
+
+#### Verdict: 
+The modals works as planned and met all the criteria. 
+
+
+### Contact Form 
+
+#### Plan:
+I want to include a contact form which the user can fill in when they want to reach out to the owners directly.
+They should insert their name, email address & phone number so the owners can easily get back to them. 
+They should also be able include a message with the questions they are having. 
+Whenever they submit the form, I want a modal to open up in order to give feedback to the user that the form has been submitted correctly.
+
+#### Implementation:
+In order to implement this, I have created a form in my index.html with 3 input fields, 1 textarea field and a submit button. 
+As it is a small & simple form, I have decided to not work with labels but placeholders instead. 
+I made sure that the form was styled according to the rest of the website. 
+
+#### Test:
+When I tested the form, I noticed that the modal opened up eventhough the form was not filled in. 
+This gave the wrong feedback to the user. As I didn't have the required skills to implement form validation, I discussed this with my mentor. 
+My mentor wrote a small part of JavaScript which I was able to implement in order for the form not being able to be submitted without the required fields being filled in. 
+The data that is being inserted is currently not send anywhere as I don't have the knowledge yet but this is on the list with future features to be implemented. 
+
+#### Result:
+After implementing the JavaScript, the form worked as planned and provided the correct feedback to the user.
+
+#### Verdict:
+The form met all the criteria and works as planned. 
+
 
 ### Bugs
 
-#### Bugs on all screen sizes
+Form validation
 
-* The user is able to submit the form without filling in the fields. Modal always appears. Currently I don't have the required skills yet to implement to form validation.
-This will be resolved in further releases
+* Bug
+The user is able to submit the form without filling in the fields. Modal always appears. 
+This provides the wrong feedback to the user.
 
-#### Mobile
+* Fix    
+As I don't have the required skills yet to implement form validation, I discussed this with my mentor. 
+He wrote a small piece of JavaScript which I could implement in my code. 
+Like this, the form couldn't be submitted without all the fields being filled in and the modal only opened whenever the form was submitted correctly.
+
+* Verdict
+Bug was resolved and form now works as planned. 
+
+Hero Image
+
+* Bug
+* Fix
+* Verdict
+
 * The hero image doesn't show nicely due to the picture not being of high resolution
 * The icons for social media don't appear next to each other. The icon for instagram shows below. 
 --> this bug has been fixed to decreasing fontsize and padding of icons on smaller screens
+
+Hamburger dropdown menu
+
+* Bug
+* Fix
+* Verdict
+
+
 * When clicking the links in the collapsed navigation, it stays open instead of closing
 
 

@@ -92,10 +92,7 @@ body {
     line-height: 5rem;
     color: #39210C ;
     font-size: 1.25rem;  
-}
-
-.navbar-collapse {
-text-align: right;
+    margin-left: 2rem;
 }
 
 /* Hovers */
