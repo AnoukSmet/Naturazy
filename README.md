@@ -1,12 +1,15 @@
 # **Naturazy**
-## **Description** 
-The goal for this project is to create an appealing website for Naturazy, a bed & breakfast in the middle of the nature. 
-The target audience is couples of all ages who want to go on a getaway, away from their busy (city) lives, in order to relax in the nature. 
-The site needs to be visually appealing so potential guests feel the need to go there in order to unwind. 
+## **Goal for this project** 
+
+Welcome to Naturazy! 
+This bed & breakfast is located in the middle of the nature, THE perfect spot to unwind after a busy week. 
+On this site you can find all the relevant information you need as a visitor, grouped together in an appealing but relevant design. 
+The website is personilized by providing some informationa about the owners and let the images speak for itself. 
+
 An intuitive user experience is key here so that the visitors find all the necessary information easily. 
 
-This project is part of my course to become a Full Stack Developer. 
-This will be my first project for which I will use HTML & CSS in order to create a static, responsive website. 
+Thank you for visiting my project!
+If you have any feedback or questions, dead over to my GitHub contact details and feel free to reach out to me.
 
 ---
 <a></a>
