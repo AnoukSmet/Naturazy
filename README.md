@@ -342,41 +342,57 @@ After implementing the JavaScript, the form worked as planned and provided the c
 #### Verdict:
 The form met all the criteria and works as planned. 
 
+[Back to Top](#table-of-contents)
 
 ### Bugs
 
 Form validation
 
-* Bug
+* Bug  
 The user is able to submit the form without filling in the fields. Modal always appears. 
 This provides the wrong feedback to the user.
 
-* Fix    
+* Fix      
 As I don't have the required skills yet to implement form validation, I discussed this with my mentor. 
 He wrote a small piece of JavaScript which I could implement in my code. 
 Like this, the form couldn't be submitted without all the fields being filled in and the modal only opened whenever the form was submitted correctly.
 
-* Verdict
+* Verdict  
 Bug was resolved and form now works as planned. 
 
 Hero Image
 
-* Bug
-* Fix
-* Verdict
+* Bug  
+The hero image looked nice on normal browsers but the quality on safari on mobile was very bad. 
 
-* The hero image doesn't show nicely due to the picture not being of high resolution
-* The icons for social media don't appear next to each other. The icon for instagram shows below. 
---> this bug has been fixed to decreasing fontsize and padding of icons on smaller screens
+* Fix  
+Tried various fixes but none of them seemed to be working. 
+After talking to my mentor, we changed the background-attachment to scroll on mobile and this resolved the bug. 
+
+* Verdict  
+Image now shows nicely on all devices and browsers.
 
 Hamburger dropdown menu
 
-* Bug
-* Fix
-* Verdict
+* Bug  
+On mobile devices when you click the hamburger icon, the menu appears nicely. 
+Whenever you click on one of the links the dropdown menu doesn't dissapear but stays open. 
+This is not a good user experience.
 
+* Verdict  
+I did various research to have this resolved but at this moment I don't have the required skills yet. 
+This would be fixed in futher releases. 
 
-* When clicking the links in the collapsed navigation, it stays open instead of closing
+Icons
+
+* Bug  
+The social media icons didn't show nicely on mobile. One appeared below the other 2 instead of all 3 next to each other.
+
+* Fix  
+Reduced the font-size and padding which resolved the issue immediately.
+
+* Verdict  
+Icons now show nicely next to each other on all devices and browsers. 
 
 
 [Back to Top](#table-of-contents)
