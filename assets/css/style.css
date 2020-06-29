@@ -104,7 +104,7 @@ body {
     float: left;
     line-height: 5rem;
     color: #39210C ;
-    font-size: 1.25rem;  
+    font-size: 1rem;  
     margin-left: 2rem;
 }
 
@@ -423,6 +423,9 @@ body {
     }
     .paragraph-text {
     width: 90%;
+    }
+    #navigation li a {
+        font-size: 1.5rem;
 }
 }
 
