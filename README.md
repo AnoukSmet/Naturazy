@@ -1,4 +1,7 @@
 # **Naturazy**
+
+![Mokeup image](wireframes/mokeup-image.png)
+
 ## **Goal for this project** 
 
 Welcome to Naturazy! 
@@ -56,6 +59,14 @@ If you have any feedback or questions, dead over to my GitHub contact details an
 
 <a></a>
 ### **User Stories**
+
+* As a user, I want to be able to easily find the contact details from the property.
+* As a user, I want to find information about the policies and prices.
+* As a user, I want to see various images about the property and neighbourhood.
+* As a user, I want to be able to reach out to the property via the website.
+* As a user, I want to see what other people think about the property via testimonials and guest reviews.
+* As a user, I want to find easily where the property is located and if I can easily park my car.
+
 1. As a user I want that the website of a potential b&b to speak to my emotions right away.
 I need to have the feeling that I don't want to miss out on the amazing experience. 
 Pictures are for me the most convincing. I expect to see pictures of the rooms, property in general but also of the environment.
@@ -124,6 +135,7 @@ As mentioned before, I based my color scheme on the natural aspect of the proper
 You can view my color scheme [here](https://colorhunt.co/palette/193637).
 Below I will explain more why I choose the various colors and for what I will be using them.
 
+![Color Scheme](wireframes/color-scheme.png)
 
 * #3C5D4B: This color will be used as my primary background-color. It is a dark green color (referring to trees, plants) which creates a calm, natural feeling. 
 * #A1BAAF: This color is a slightly ligher green which I will use for my navigation menu and call-to-action buttons.
