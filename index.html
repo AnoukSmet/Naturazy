@@ -57,7 +57,7 @@
             </div>
             <div class="col-md-4 text-property">
             <h3 class="sub-heading">About Naturazy</h3>
-            <p class="welcome-text">
+            <p class="paragraph-text">
             Waking up in the morning in a tree house is an amazing experience. 
             Being closer to nature including the trees, birds, and other wildlife can revitalize the spirit. 
             But, being at a tree house bed and breakfast can make the adventure much more exciting. 
@@ -71,7 +71,7 @@
             </div>
             <div class="col-md-4 text-property">
             <h3 class="sub-heading">About us</h3>
-            <p class="welcome-text">
+            <p class="paragraph-text">
             We’ve been in the hospitality business for quite a while and we know the importance of meeting face to face and serving on a personal level.
             We had longed dreamed of opening a bed and breakfast that would fuse Mark's passion for treehouses, Karin’s knack for hosting and cooking, and our shared love of nature.
             When we came across four acres for sale near our home in the the Ardennes, we knew the time was ripe to bring their dream to life. 
@@ -105,14 +105,14 @@
                 <div class="treehouse-images treehouse-bedroom"></div>
             </div>
             <div class="col-10 text-property">
-                <p class="welcome-text">
+                <p class="paragraph-text">
                 Our Tree Houses are spacious enough to move about easily, is surrounded by windows, and has a queen size bed. 
                 The main level has a beautiful built-in lounging area surrounded by windows, a dining room area with microwave, Keurig and mini fridge, and a bathroom with shower, sink and toilet.
                 The tree house has a back deck complete with Adirondack chairs and a walkway that wraps around three sides of the treehouse.
                 It’s the perfect place to rest, relax, and reconnect with nature and loved ones.
                 </p>
                 <h4 class="sub-heading">Policies</h4>
-                <p class="welcome-text">
+                <p class="paragraph-text">
                 Check-in - from 2 pm <br>
                 Check-out - until 11 am
                  </p>
@@ -188,7 +188,7 @@
             </div>
 
                 <div class="promotions">
-                <button class="btn btn-promotions" data-toggle="modal" data-target="#promotionsModal">
+                <button class="btn" id="btn-promotions" data-toggle="modal" data-target="#promotionsModal">
                 Check out our amazing promotions!
                 </button>
                 </div>
@@ -257,8 +257,8 @@
                 <div class="testimonial-icon">
                     <i class="fas fa-comment-dots"></i>
                 </div>
-                <h5 class="sub-heading testimonial-heading">Mrs. Wilson</h5>
-                <p class="testimonial">
+                <h5 class="sub-heading">Mrs. Wilson</h5>
+                <p class="paragraph-text">
                 Stayed at one of the treehouses, which was quaint and had tons of natural lighting.
                 The loft bedroom provided a fun throwback to my youth, and the relaxing "nook" was wonderful for reading and kicking back.
                 Breakfast was delicious and accommodating of dietary needs, with personable and professional service. 
@@ -271,8 +271,8 @@
                 <div class="testimonial-icon">
                     <i class="fas fa-comment-dots"></i>
                 </div>
-                <h5 class="sub-heading testimonial-heading">Mr. Smith</h5>
-                <p class="testimonial">
+                <h5 class="sub-heading">Mr. Smith</h5>
+                <p class="paragraph-text">
                 My wife and I stayed at Naturazy for our 2 year wedding anniversary. 
                 We loved every moment we were there. The views were gorgeous.
                 Every window in the treehouse opened up to a beautiful view of the treelines and the deck was a wonderful place to sit and take in the sights and sounds of nature.
@@ -299,7 +299,7 @@
                 <h2 class="heading">Contact</h2>
                 <div class="hr"></div>
             </div>
-            <div class="col-md-6 contact-location">
+            <div class="col-md-6" id="contact-location">
                 <h5 class="sub-heading">Contact Details</h5>
                 <div>
                 Phone number:
@@ -332,7 +332,7 @@
                                 <textarea class="contact-input" name="message" id="message" cols="30" rows="5" required placeholder="Write your message here"></textarea>
                             </div>
                             <div class="col-12">
-                                <button type="submit" class="bg-color-light btn-submit">Submit</button>
+                                <button type="submit" class="bg-color-light" id="btn-submit">Submit</button>
                             </div> 
                         </form>
                     </div>
@@ -343,7 +343,7 @@
 
 <!-- Footer section with brand -->
 
-    <footer class="container-fluid footer-section bg-color-light">
+    <footer class="container-fluid bg-color-light" id="footer-section">
         <div class="row no-gutters">
             <div class="col-12">
                 <a href="index.html">Naturazy</a>
@@ -397,10 +397,11 @@
 
 <!-- Links bootstrap Javascript-->
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<!-- JavaScript for form validation-->
 
 <script>
 $('#contact-form').submit(function (e) {
