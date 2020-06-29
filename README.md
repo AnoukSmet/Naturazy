@@ -7,12 +7,12 @@
 Welcome to Naturazy! 
 This bed & breakfast is located in the middle of the nature, THE perfect spot to unwind after a busy week. 
 On this site you can find all the relevant information you need as a visitor, grouped together in an appealing but relevant design. 
-The website is personilized by providing some informationa about the owners and let the images speak for itself. 
+The website is personalised by providing some information about the owners and let the images speak for itself. 
 
 An intuitive user experience is key here so that the visitors find all the necessary information easily. 
 
 Thank you for visiting my project!
-If you have any feedback or questions, dead over to my GitHub contact details and feel free to reach out to me.
+If you have any feedback or questions, head over to my GitHub contact details and feel free to reach out to me.
 
 ---
 <a></a>
@@ -98,14 +98,14 @@ The more intuitive the website is, the more likely I will be to book the propert
 * Easy to navigate by using the navigation menu
 * Relevant content about the property
 * Appealing visual elements
-* Easy way to contact propery
-* Clear information about how to make a booking
+* Easy way to contact property
+* Clear information about prices and policies
 
 <a></a>
 #### Expectations
 * When clicking on links (like social media), I expect the page to open in a seperate browser
 * I expect feedback when submitting the contact form that the form has been submitted correctly
-* I expect that the navigations works properly so that is takes me wherever I want to go
+* I expect that the navigation links work properly so that is takes me wherever I want to go
 * Clear info about location 
 * Website is in line with the customer's journey
 
@@ -126,7 +126,7 @@ This is a calligraphic font that highlights to heading and gives it a more perso
 <a></a>
 #### Icons
 I have decided to implement icons, using the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). The icons that I chose are self explanatory and are in line with the overall feeling of the website.
-I will make sure that the icons are styled according to the website. I will use the icons mainly in the navigation bar in order to make it more appealing. The navigation icons will disappear when viewing on a mobile in order to keep it clear.
+I will make sure that the icons are styled according to the website. I will use some icons to make the website more visually appealing but not to overtake the content.
 The navigation menu will transform into a hamburger icon to make it more simple to use on mobile.
 
 <a></a>
@@ -193,7 +193,7 @@ For this to work properly I have fixed the navbar on the top of the page.
 
 #### Hero Image
 
-I have decided to implement a hero image which spreads over 100% of the screen. In order to make the user curious about what follows next, I decided to set the height at 80vh so show a little peek of what comes next.
+I have decided to implement a hero image which spreads over 100% width of the screen. In order to make the user curious about what follows next, I decided to set the height at 80vh so show a little peek of what comes next.
 The image responds well when viewing on desktop, tablet and mobile.
 
 #### Welcome Section
@@ -206,7 +206,7 @@ Here I also worked with the grid which was a bit more challenging. I implement 4
 On Tablet I have decided to hide 1 picture and on mobile I decided to hide 2 of the pictures and only show them after the introduction text of the tree houses.
 In order to accomplish this, I used display: none and display: block when creating the columns. 
 
-For the price section, I have a used a responsive pricing table instead of the normal table in bootstrap. 
+For the price section, I have a used a responsive pricing model instead of the normal table in bootstrap. 
 I have worked with icons here to really show the difference between the 3 pricing models. 
 
 Under the pricing model I have inserted a button which opens a modal with the current promotions. 
@@ -260,6 +260,8 @@ Below the form there is a submit button which also triggers a modal to open up w
 * [Balsamic](https://balsamiq.com/wireframes/)
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [Tiny PNG](https://tinypng.com/)
+* [techsini](http://techsini.com/)
 
 [Back to Top](#table-of-contents)
 
@@ -272,7 +274,7 @@ Below the form there is a submit button which also triggers a modal to open up w
 I want to include a navigation bar which will be fixed on top. 
 While scrolling down the page, I want to give the user a clear view on where they are located on the site by using the scrollspy.
 Whenever clicked on one of the navigation links, it should take you where you want to go.
-To be more attractive and easy to use on mobile, I want the navigation bar to convert to a hamburger sign with a dropdown.
+To be more attractive and easy to use on mobile, I want the navigation bar to convert to a hamburger sign with a dropdown menu.
 
 * Implementation  
 I implemented the navigation bar using Bootstrap. This helps to give an overall structure and lay out to the navbar. 
@@ -282,13 +284,13 @@ I have also used Bootstrap to implement the hamburger sign for mobile devices.
 
 * Test  
 To test the navigation bar, I have click all the links to make sure it works properly. 
-I have also opened the website in various browers (safari, google chrome, mozilla firefox) to make sure it works on all browsers and devices".
-Also double checked the scrollspy on the various browsers and devices. 
+I have also opened the website in various browers (safari, google chrome, mozilla firefox) to make sure it works on all browsers and devices.
+I also double checked the scrollspy on the various browsers and devices. 
 On mobile the navigation transformed into the hamburger sign with a dropdown menu.
 
 * Result  
 The navigation bar shows nicely like expected on all browsers and devices. 
-It did notice that the contact link was too close to the right side of the screen with I solved by increasing the margin. 
+It did notice that the contact link was too close to the right side of the screen which I solved by increasing the margin. 
 All the links work properly and the scrollspy gives a clear view on where you are located on the page. 
 
 * Verdict  
@@ -441,8 +443,13 @@ I have used [Unsplash](https://unsplash.com/) for my hero image and the picture 
 First of all, I would like to thank my mentor Simen ([Eventyret_mentor](https://github.com/Eventyret)) for guiding me throughout this project. 
 He helped me to brainstorm about ideas which were in line with my interests. 
 During the mid review, he gave me a lot of tips in order to improve my code and to implement some other features in order to make my website more user friendly. 
+I also want to thank him for helping with the form validation. I wanted to provide the correct feedback when submitting the form but I was lacking the skills for this. 
+With his help, I was able to implement some JavaScript code in order to accomplish this.
 
 I would also like to thank my partner Artur and my parents to provide honest feedback about the website and to put themselves in the shoes of the users.
+
+I want to thank our Slack community as well. Whenever I had a doubt, I did some research on Slack and I always found someone who has the same issue as I did. 
+This helped me a lot to get to the solution sooner. 
 
 My inspiration I got mostly from runnning a bed & breakfast myself in Portugal a couple of years ago. 
 This experience gave me some good insights of what owners expect from their website. 
