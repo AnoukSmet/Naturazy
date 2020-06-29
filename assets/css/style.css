@@ -82,10 +82,11 @@ body {
     font-size: 3rem;
     line-height: 4rem;
     float: left;
-    margin: 0;
+    margin: 0 auto;
     padding-left: 1rem;
     color: #39210C;
     text-decoration: none;
+    padding-top: 0.5rem;
 }
 
 .navbar-dark .navbar-toggler {
@@ -426,11 +427,12 @@ body {
 }
 
 @media (min-width: 576px) {
-.navbar-expand-sm .navbar-collapse {
-    display: block;
-}
-
-#hero-image {
+    .navbar-expand-sm .navbar-collapse {
+        display: block;
+    }
+    #hero-image {
     background-attachment: fixed;
-}
-}
+    }
+    #navbar-brand {
+        padding-top: 0;
+    }
