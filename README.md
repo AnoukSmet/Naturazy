@@ -147,9 +147,9 @@ This way my content will be easily readable.
 
 <a></a>
 #### Structure
-I have chosen to use [Bootstrap4](https://getbootstrap.com/) to create an overall structure for my website. 
+I have chosen to use [Bootstrap](https://getbootstrap.com/) to create an overall structure for my website. 
 Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on your page. 
-As Bootstrap4 is designed for mobile first, I will be certain that my website functions well on mobile.
+As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
 
 [Back to Top](#table-of-contents)
 
@@ -245,52 +245,20 @@ Below the form there is a submit button which also triggers a modal to open up w
 <a></a>
 ### **Languages**
 
-#### HTML
-
-I have used HTML to write the main content of my website and to give the overall lay out.
-
-#### CSS
-
-I have used CSS to style the elements on the website and used it to overwrite the basic styling from bootstrap.
-
-#### JavaScript
-
-I have implemented some basic JavaScript features from Bootstrap. This to create 2 modals and the hamburger icon for the navigation bar on mobile devices.
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 <a></a>
 ### **Tools and Libraries**
 
-#### Font Awesome
-
-I used this library to obtain icons for social media, pricing model and testimonials. 
-
-#### Bootstrap
-
-I have used the library of Bootstrap to provide an overall lay out of my website using the grid. 
-I also implemented other components like the navbar, pricing model, modals to style individual sections on my website. 
-
-#### Google Fonts
-
-I browsed the library of google fonts in order to obtain appealing fonts for the website.
-
-#### Git
-
-I have used GitPod to write and style my code. 
-I have used the following commands in the terminal to make sure my code was saved properly:
-* git add
-* git commit -m ""
-* git push
-
-#### Balsamiq
-
-I have used Balsamiq to make my wireframes for desktop, tablet and mobile.
-
-#### W3C HTML Validation Service
-This site was used to check the HTML code in the project.
-
-#### W3C CSS Validation Service
-This site was used to check the CSS code in the project.
-
+* [Font Awesome](https://fontawesome.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [GitHub](https://github.com/)
+* [Balsamic](https://balsamiq.com/wireframes/)
+* [W3C HTML Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 [Back to Top](#table-of-contents)
 
@@ -340,19 +308,19 @@ This will be resolved in further releases
 This project was deployed via GitHub by executing the following steps.
 After writing the code, committing and pushing it to GitHub:
 
-1. Navigate to the repository on github and click Settings.
-1. From there, go to the Source section within the Github Pages section.
-1. Select master branch on the dropdown menu, and click save.
-1. Now the website is live on https://anouksmet.github.io/Naturazy/ 
+1. Navigate to the repository on github and click **Settings**.
+1. From there, go to the **Source section** within the Github Pages section.
+1. Select **master branch** on the dropdown menu, and click save.
+1. Now the website is live on **https://anouksmet.github.io/Naturazy/**
 1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
 
 To run the project locally:
 
-1. Click the green Clone or Download button on the Github Repository
-1. Using the Clone with HTTPS option, copy the link displayed.
+1. Click the **green Clone or Download button** on the Github Repository
+1. Using the **Clone with HTTPS option**, copy the link displayed.
 1. Open your IDE, and ensure the Git Terminal is open.
 1. Change the working directory to the location where the cloned directory is to go.
-1. Use the "git clone" command and paste the url copied in the second step.
+1. Use the **"git clone" command** and paste the url copied in the second step.
 
 
 [Back to Top](#table-of-contents)
@@ -364,19 +332,19 @@ To run the project locally:
 
 I have used the following websites to gather ideas and information for the overall content of my website: 
 
-https://hermanncottage.com/
+* [Herman Cottage](https://hermanncottage.com/)
 
-https://www.treehousepoint.com/
+* [Treehouse Point](https://www.treehousepoint.com/)
 
-https://www.quirkyaccom.com/treehouse-holidays
+* [Quirky Accom](https://www.quirkyaccom.com/treehouse-holidays)
 
 From the first 2 website I have also used most of the images for my website. 
 
-I have used https://unsplash.com/ for my hero image and the picture of the owners.
+I have used [Unsplash](https://unsplash.com/) for my hero image and the picture of the owners.
 
 ### Acknowledgements
 
-First of all, I would like to thank my mentor Simen (Eventyret_mentor) for guiding me throughout this project. 
+First of all, I would like to thank my mentor Simen ([Eventyret_mentor](https://github.com/Eventyret)) for guiding me throughout this project. 
 He helped me to brainstorm about ideas which were in line with my interests. 
 During the mid review, he gave me a lot of tips in order to improve my code and to implement some other features in order to make my website more user friendly. 
 
