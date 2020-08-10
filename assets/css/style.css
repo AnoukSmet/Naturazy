@@ -81,7 +81,7 @@ body {
     font-size: 3rem;
     line-height: 4rem;
     float: left;
-    margin: 0 auto;
+    margin-left: 0;
     padding-left: 1rem;
     color: #39210C;
     text-decoration: none;
