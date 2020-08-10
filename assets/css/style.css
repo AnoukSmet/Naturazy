@@ -223,17 +223,15 @@ body {
 /* Gallery */
 
 .gallery {
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
-    min-height:30rem;
-    background-position: center center;
-    text-align:center;
+    height: 25rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     padding:0;  
-}
-
+    float: center;
+    object-fit: cover;
+    }
+/*
 #gallery-treehouse-outside {
     background-image: url('../images/gallery-treehouse-outside.jpg');
 }
@@ -272,6 +270,8 @@ body {
     background-image: url('../images/gallery-outdoor-barbecue.jpeg');
     background-position: bottom;
 }
+
+*/
 /* Testimonials */
 
 .testimonial-icon {
