@@ -163,17 +163,11 @@ The website will be easy to navigate by using the navigation bar or by scrolling
 
 You can find my wireframes below:
 
-### Desktop Wireframe
+### [Desktop Wireframe](wireframes/desktop-wireframe.png)
 
-![Desktop Wireframe](wireframes/desktop-wireframe.png)
+### [Tablet Wireframe](wireframes/tablet-wireframe.png)
 
-### Tablet Wireframe
-
-![Tablet Wireframe](wireframes/tablet-wireframe.png)
-
-### Mobile Wireframe
-
-![Mobile Wireframe](wireframes/mobile-wireframe.png)
+### [Mobile Wireframe](wireframes/mobile-wireframe.png)
 
 [Back to Top](#table-of-contents)
 
