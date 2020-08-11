@@ -66,8 +66,8 @@ body {
 
 .navbar {
     text-align: left;
-    color: #39210C;
-    background-color: #A1BAAF;
+    /* color: #39210C;
+    background-color: #A1BAAF; */
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -84,14 +84,13 @@ body {
     float: left;
     margin-left: 0;
     padding-left: 1rem;
-    color: #39210C;
     text-decoration: none;
     padding-top: 0.5rem;
+    color: #F6FFF8;
 }
 
 .navbar-dark .navbar-toggler {
-    color: #39210C;
-    border-color: #39210C;
+    border-color: #F6FFF8;
     padding: 1.5rem;
     float: right;
     margin: 0.5rem;
@@ -103,7 +102,6 @@ body {
     margin-right: 3.5rem;
     float: left;
     line-height: 5rem;
-    color: #39210C ;
     font-size: 1.5rem;  
     margin-left: 2rem;
     width: 100%;
