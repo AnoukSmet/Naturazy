@@ -430,7 +430,7 @@ body {
 }
 
 @media (min-width: 576px) {
-    .navbar-expand-sm .navbar-collapse {
+    .navbar-expand-lg .navbar-collapse {
         display: block;
     }
     #hero-image {
