@@ -215,7 +215,7 @@ body {
 .pricingTable {
     text-align: center;
     border: 4px solid #A1BAAF;
-    height: 40rem;
+    height: auto;
     margin: 0 auto;
     width: 90%;
 }
@@ -231,7 +231,7 @@ body {
     float: center;
     object-fit: cover;
     }
-    
+
 /* Testimonials */
 
 .testimonial-icon {
