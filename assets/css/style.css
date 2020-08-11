@@ -231,47 +231,7 @@ body {
     float: center;
     object-fit: cover;
     }
-/*
-#gallery-treehouse-outside {
-    background-image: url('../images/gallery-treehouse-outside.jpg');
-}
-#gallery-treehouse-sideview {
-    background-image: url('../images/gallery-treehouse-sideview.jpg');
-}
-#gallery-bedroom {
-    background-image: url('../images/gallery-bedroom.jpg');
-}
-#gallery-terrace-view {
-    background-image: url('../images/gallery-terrace-view.jpg');
-}
-#gallery-outdoor-stairs {
-    background-image: url('../images/gallery-outdoor-stairs.jpg');
-    background-position: bottom;
-}
-#gallery-river-small {
-    background-image: url('../images/gallery-river-small.jpg');
-}
-#gallery-outdoor-fireplace {
-    background-image: url('../images/gallery-outdoor-fireplace.jpg');
-}
-#gallery-river-big {
-    background-image: url('../images/gallery-river-big.jpg');
-}
-#gallery-breakfast-buffet {
-    background-image: url('../images/gallery-breakfast-buffet.jpeg');
-}
-#gallery-breakfast-table {
-    background-image: url('../images/gallery-breakfast-table.jpeg');
-}
-#gallery-restaurant {
-    background-image: url('../images/gallery-restaurant.jpeg');
-}
-#gallery-outdoor-barbecue {
-    background-image: url('../images/gallery-outdoor-barbecue.jpeg');
-    background-position: bottom;
-}
-
-*/
+    
 /* Testimonials */
 
 .testimonial-icon {
@@ -424,15 +384,9 @@ body {
     .paragraph-text {
     width: 90%;
     }
-    #navigation li a {
-        font-size: 1.5rem;
-}
 }
 
 @media (min-width: 576px) {
-    .navbar-expand-lg .navbar-collapse {
-        display: block;
-    }
     #hero-image {
     background-attachment: fixed;
     }
