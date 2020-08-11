@@ -70,18 +70,12 @@ If you have any feedback or questions, head over to my GitHub contact details an
 * As a user, I want the websit to work well on tablets. 
 * As a user, I want the website to be intuitive as they will increase the chance of my booking there
 * As a user, I want to find the contact details quickly, otherwise I will be tempted to book somewhere else. 
-
-1. As a user I want that the website of a potential b&b to speak to my emotions right away.
-I need to have the feeling that I don't want to miss out on the amazing experience. 
-Pictures are for me the most convincing. I expect to see pictures of the rooms, property in general but also of the environment.
-I would also like to have the possibility to get in touch with the property through the website. 
-
-1. When I'm looking for my next holiday, I want the website to be easy to navigate. 
-I also like to know a bit of information about the owners as a b&b experience is much more personal than going to a hotel. 
-After reading about the propery and the owners, I want clear information about when I can do the check-in, check-out and the costs for breakfast and parking. 
-
-1. When I choose a place to spend my valuable free time, I let myself be guided by experiences of others. Testimonials and guest reviews are the most important for me.
-This in combination with appealing images really thrives my decision-making process. Links to social media like facebook, tripadvisor etc are key.
+* As a user, I want that the website of a potential b&b to speak to my emotions right away.
+* As a user, I need to have the feeling that I don't want to miss out on the amazing experience. 
+* As a user, I want the website to be easy to navigate. 
+* As a user, I also like to know a bit of information about the owners as a b&b experience is much more personal than going to a hotel. 
+* As a user, I want clear information about when I can do the check-in, check-out and the costs for breakfast and parking. 
+* As a user, I expect that there are links to social media that open in separate tabs.
 
 <a></a>
 ### **Site owners Goals**
