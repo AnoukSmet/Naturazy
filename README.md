@@ -132,9 +132,9 @@ Below I will explain more why I choose the various colors and for what I will be
 ![Color Scheme](wireframes/color-scheme.png)
 
 * #3C5D4B: This color will be used as my primary background-color. It is a dark green color (referring to trees, plants) which creates a calm, natural feeling. 
-* #A1BAAF: This color is a slightly ligher green which I will use for my navigation menu and call-to-action buttons.
+* #A1BAAF: This color is a slightly ligher green which I will use for my call-to-action buttons.
 * #F6FFF8: This color will be used as text color for the overall contact of the page. It's a mint cream (off white) which stands out well to the background colors that I have chosen.
-* #39210C: This is a seal brown color which represents the wood in nature. I will use this color as text-color for my navigation & buttons. 
+* #39210C: This is a seal brown color which represents the wood in nature. I will use this color as text-color for my call-to-action buttons. 
 
 I have used to contract checker on Coolors in order to make sure that the contract is sufficient.
 This way my content will be easily readable. 
