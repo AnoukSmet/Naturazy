@@ -107,8 +107,6 @@ body {
     margin-left: 2rem;
     width: 100%;
     color: #F6FFF8;
-    /* text-shadow: 0.2rem 0.2rem #39210C; */
-
 }
 
 
@@ -184,10 +182,10 @@ body {
 #btn-promotions {
     text-align: center;
     margin-top: 3rem;
-    border: 3px solid #39210C;
     border-radius: 1rem;
     font-size: 2rem;
     padding: 1.2rem;
+
 }
 .pricing-title {
     font-family: "Eagle lake", sans-serif;
@@ -215,6 +213,7 @@ body {
 }
 .price-value {
     margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 .pricingTable {
     text-align: center;
@@ -223,6 +222,7 @@ body {
     margin: 0 auto;
     width: 90%;
     box-shadow: 0.3rem -0.5rem 1rem 0.1rem #39210C;
+    margin-top: 1rem;
 
 }
 
@@ -294,7 +294,7 @@ body {
     width: 80%;
     margin-bottom: 1rem;
     background-color: #A1BAAF;
-    border: 2px solid #39210C;
+    border-color: #A1BAAF;
     border-radius: 1rem;
     color: #39210C;
 }
@@ -304,10 +304,10 @@ body {
 }
 
 #btn-submit {
-    border: 2px solid #39210C;
     border-radius: 1rem;
     width: 10rem;
     margin-bottom: 1rem;
+    border-color: #A1BAAF;
 }
 
 /* Footer */
@@ -340,13 +340,13 @@ body {
 }
 
 #btn-promotions:hover {
-    background-color: #577f69;
-    color: #F6FFF8;
+    background-color: #668e7c;
+    color: #39210C;
 }
 
 #btn-submit:hover {
-    background-color: #577f69;
-    color: #F6FFF8;
+    background-color: #668e7c;
+    color: #39210C;
 }
 #contact-location a:hover {
     text-decoration: underline;
@@ -358,8 +358,7 @@ body {
         color: #A1BAAF;
     }
  .social-links a:hover {
-     color: #577f69;
-     
+     color: #668e7c;
  }
 
 /* Price Modal */
