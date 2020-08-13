@@ -52,14 +52,12 @@ body {
 .text-property {
     text-align: center;
     margin-top: 1.5rem;
-    padding: auto;
 }
 
 .paragraph-text {
     width: 100%;
     text-align: center;
     margin: 0;
-    padding: 0 auto;
 }
 
 /* Header */
@@ -226,7 +224,6 @@ body {
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     padding:0;  
-    float: center;
     object-fit: cover;
     }
 
