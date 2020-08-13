@@ -239,17 +239,22 @@ Below the form there is a submit button which also triggers a modal to open up w
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 <a></a>
-### **Tools and Libraries**
+
+### **Libraries & Frameworks**
 
 * [Font Awesome](https://fontawesome.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Google Fonts](https://fonts.google.com/)
-* [GitHub](https://github.com/)
+
+### **Tools**
+* [Git](https://git-scm.com/)
+* [GitPod](https://www.gitpod.io/)
 * [Balsamic](https://balsamiq.com/wireframes/)
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-* [Tiny PNG](https://tinypng.com/)
 * [techsini](http://techsini.com/)
+* [Tiny PNG](https://tinypng.com/)
+
 
 [Back to Top](#table-of-contents)
 
@@ -258,129 +263,129 @@ Below the form there is a submit button which also triggers a modal to open up w
 
 ### Navigation bar
 
-* Plan  
+* **Plan**    
 I want to include a navigation bar which will be fixed on top. 
 While scrolling down the page, I want to give the user a clear view on where they are located on the site by using the scrollspy.
 Whenever clicked on one of the navigation links, it should take you where you want to go.
 To be more attractive and easy to use on mobile, I want the navigation bar to convert to a hamburger sign with a dropdown menu.
 
-* Implementation  
+* **Implementation**   
 I implemented the navigation bar using Bootstrap. This helps to give an overall structure and lay out to the navbar. 
 I have used CSS to overwrite the default settings and making the navbar in line with the overall webite. 
 In the body element I implemented the scrollspy and gave it an offset so whenever you click on one of the links, it shows the title with some spacing around. 
 I have also used Bootstrap to implement the hamburger sign for mobile devices. 
 
-* Test  
+* **Test**    
 To test the navigation bar, I have click all the links to make sure it works properly. 
 I have also opened the website in various browers (safari, google chrome, mozilla firefox) to make sure it works on all browsers and devices.
 I also double checked the scrollspy on the various browsers and devices. 
 On mobile the navigation transformed into the hamburger sign with a dropdown menu.
 
-* Result  
+* **Result**    
 The navigation bar shows nicely like expected on all browsers and devices. 
 It did notice that the contact link was too close to the right side of the screen which I solved by increasing the margin. 
 All the links work properly and the scrollspy gives a clear view on where you are located on the page. 
 
-* Verdict  
+* **Verdict**    
 The test has passed all the criteria and works like planned.
 
 ### Modals
-* Plan  
+* **Plan**    
 I want to implement 2 modals which open up when you click on 'Check out our amazing promotions' and one for providing feedback when you submit the form correctly. 
 
-* Implementation  
+* **Implementation**    
 As I don't have the required skills yet to write JavaScript, I have used Bootstrap to include the modals on the website. 
 I centered the modal vertically and horizontally as my overall website is centered and like this, it feels more like part of the website. 
 I have used the same colors as my overall website by overwriting the standard css provided by bootstrap.
 In order to center the title of the modal, I received some help from my mentor as I couldn't figure it out myself. 
 By adding a width of 100%, I managed to center the title as well which made the modal more visually appealing.
 
-* Test  
+* **Test**    
 I have tested both modals on various devices and browsers. 
 The modal was nicely centered and feels in line with the overall website. 
 The promotion modal is being triggered by clicking the button and the submitting modal is triggered whenever the form was filled in correctly. 
 
-* Result  
+* **Result**    
 The modals opened up when the correct button was clicked and appeared centered on the screen.
 
-* Verdict  
+* **Verdict**    
 The modals works as planned and met all the criteria. 
 
 
 ### Contact Form 
-* Plan  
+* **Plan**    
 I want to include a contact form which the user can fill in when they want to reach out to the owners directly.
 They should insert their name, email address & phone number so the owners can easily get back to them. 
 They should also be able include a message with the questions they are having. 
 Whenever they submit the form, I want a modal to open up in order to give feedback to the user that the form has been submitted correctly.
 
-* Implementation  
+* **Implementation**    
 In order to implement this, I have created a form in my index.html with 3 input fields, 1 textarea field and a submit button. 
 As it is a small & simple form, I have decided to not work with labels but placeholders instead. 
 I made sure that the form was styled according to the rest of the website. 
 
-* Test  
+* **Test**    
 When I tested the form, I noticed that the modal opened up eventhough the form was not filled in. 
 This gave the wrong feedback to the user. As I didn't have the required skills to implement form validation, I discussed this with my mentor. 
 My mentor wrote a small part of JavaScript which I was able to implement in order for the form not being able to be submitted without the required fields being filled in. 
 The data that is being inserted is currently not send anywhere as I don't have the knowledge yet but this is on the list with future features to be implemented. 
 
-* Result  
+* **Result**    
 After implementing the JavaScript, the form worked as planned and provided the correct feedback to the user.
 
-* Verdict  
+* **Verdict**    
 The form met all the criteria and works as planned. 
 
 [Back to Top](#table-of-contents)
 
 ### Bugs
 
-Form validation
+#### Form validation
 
-* Bug  
+* **Bug**    
 The user is able to submit the form without filling in the fields. Modal always appears. 
 This provides the wrong feedback to the user.
 
-* Fix      
+* **Fix**        
 As I don't have the required skills yet to implement form validation, I discussed this with my mentor. 
 He wrote a small piece of JavaScript which I could implement in my code. 
 Like this, the form couldn't be submitted without all the fields being filled in and the modal only opened whenever the form was submitted correctly.
 
-* Verdict  
+* **Verdict**    
 Bug was resolved and form now works as planned. 
 
-Hero Image
+#### Hero Image
 
-* Bug  
+* **Bug**    
 The hero image looked nice on normal browsers but the quality on safari on mobile was very bad. 
 
-* Fix  
+* **Fix**    
 Tried various fixes but none of them seemed to be working. 
 After talking to my mentor, we changed the background-attachment to scroll on mobile and this resolved the bug. 
 
-* Verdict  
+* **Verdict**    
 Image now shows nicely on all devices and browsers.
 
-Hamburger dropdown menu
+#### Hamburger dropdown menu
 
-* Bug  
+* **Bug**    
 On mobile devices when you click the hamburger icon, the menu appears nicely. 
 Whenever you click on one of the links the dropdown menu doesn't dissapear but stays open. 
 This is not a good user experience.
 
-* Verdict  
+* **Verdict**   
 I did various research to have this resolved but at this moment I don't have the required skills yet. 
 This would be fixed in futher releases. 
 
-Icons
+#### Icons
 
-* Bug  
+* **Bug**    
 The social media icons didn't show nicely on mobile. One appeared below the other 2 instead of all 3 next to each other.
 
-* Fix  
+* **Fix**    
 Reduced the font-size and padding which resolved the issue immediately.
 
-* Verdict  
+* **Verdict**    
 Icons now show nicely next to each other on all devices and browsers. 
 
 
