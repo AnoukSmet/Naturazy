@@ -388,6 +388,17 @@ Reduced the font-size and padding which resolved the issue immediately.
 * **Verdict**    
 Icons now show nicely next to each other on all devices and browsers. 
 
+#### Navigation menu on smaller screensizes 
+
+* **Bug**    
+When the screen gets smaller, the fontsize of the navigation bar is too small and the collapse button goes off the screen. 
+
+* **Fix**        
+Removed the display: block and updated the width to 100% instead of 100vw like the assessor suggested. 
+Updated the font-size as well in order to be more easy to read. 
+
+* **Verdict**    
+Bug was resolved and navigation bar now works as planned and is more userfriendly. 
 
 [Back to Top](#table-of-contents)
 

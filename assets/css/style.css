@@ -141,7 +141,6 @@ body {
     border-radius: 50%;
     height: 100%;
     width: 100%;
-
 }
 
 #about-us {
@@ -234,7 +233,6 @@ body {
     width: 90%;
     box-shadow: 0.3rem -0.5rem 1rem 0.1rem #39210C;
     margin-top: 1rem;
-
 }
 
 /* Gallery */
@@ -244,7 +242,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2rem 0;
-    
 }
 
 #gallery-hr {
@@ -331,7 +328,6 @@ body {
     text-align: center;
     border-top: 0.2rem solid #A1BAAF;
     background-color: #24382d;
-;
 }
 
 #footer-section a {
@@ -341,7 +337,6 @@ body {
     line-height: 7rem;
     color: #F6FFF8;
     text-shadow: 0.2rem 0.2rem #39210C;
-
 }
 
 
@@ -426,7 +421,6 @@ body {
     #navigation li a {
         line-height: 5rem;
     }
-    
     #image-owners {
         height: 70%;
         width: 70%; 
@@ -445,7 +439,6 @@ body {
     .paragraph-text {
     width: 100%;
     }
-    
 }
 
 @media (min-width: 992px) {
