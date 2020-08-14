@@ -132,6 +132,9 @@ body {
 #owners-container {
     text-align: center;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #image-owners {
