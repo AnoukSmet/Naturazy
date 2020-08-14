@@ -135,6 +135,7 @@ Below I will explain more why I choose the various colors and for what I will be
 * #A1BAAF: This color is a slightly ligher green which I will use for my call-to-action buttons.
 * #F6FFF8: This color will be used as text color for the overall contact of the page. It's a mint cream (off white) which stands out well to the background colors that I have chosen.
 * #39210C: This is a seal brown color which represents the wood in nature. I will use this color as text-color for my call-to-action buttons. 
+* #24382d: This is a slighly darker green than #3C5D4B that I used for the navigation bar and the footer. This way you can clearly see where the navigation bar ends and the rest of the website starts. 
 
 I have used to contract checker on Coolors in order to make sure that the contract is sufficient.
 This way my content will be easily readable. 
