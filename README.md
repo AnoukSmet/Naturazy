@@ -1,4 +1,4 @@
-# **Naturazy**
+## **Naturazy**
 
 ![Mokeup image](wireframes/mokeup-image.png)
 
